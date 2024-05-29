@@ -38,6 +38,6 @@ for i, (band, members) in enumerate(data.items()):
         )
 
 net.show(
-    r"prog_rock_network.html",
+    r"./docs/prog_rock_network.html",
     notebook = False
 )
