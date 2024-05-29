@@ -12,6 +12,10 @@
             "Neil Peart" : {
                 "years_active" : ["1974 - 2015"],
                 "instruments" : ["drums", "percussion", "lyrics"]
+            },
+            "John Rutsey" : {
+                "years_active" : ["1968 - 1974"],
+                "instruments" : ["drums", "percussion", "backing vocals", "lyrics"]
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/Rush_(band)'> Rush<a> is a band with a wikipedia page."
@@ -815,5 +819,229 @@
             }
         },
         "title" : "<a https://en.wikipedia.org/wiki/Wishbone_Ash'> Wishbone Ash<a> is a band with a wikipedia page."
+    },
+    "Squackett" : {
+        "members" : {
+            "Chris Squire" : {
+                "years_active" : [2012],
+                "instruments" : ["bass", "vocals"]
+            },
+            "Steve Hackett" : {
+                "years_active" : [2012],
+                "instruments" : ["guitars", "harmonica", "vocals"]
+            },
+            "Roger King" : {
+                "years_active" : [2012],
+                "instruments" : ["keyboards"]
+            },
+            "Jeremy Stacey" : {
+                "years_active" : [2012],
+                "instruments" : ["drums"]
+            },
+            "Amanda Lehmann" : {
+                "years_active" : [2012],
+                "instruments" : ["backing vocals"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/A_Life_Within_a_Day'> Squackett<a> is a band with a wikipedia page."
+    },
+    "Genesis" : {
+        "members" : {
+            "Tony Banks" : {
+                "years_active" : ["1967 - 2000", "1006 - 2007", "2020 - 2022"],
+                "instruments" : ["keyboards", "acoustic guitar", "backing vocals"]
+            },
+            "Mike Rutherford" : {
+                "years_active" : ["1967 - 2000", "2006 - 2007", "2020 - 2022"],
+                "instruments" : ["bass", "acoustic and electronic guitars", "bass pedals", "cello", "backing vocals"]
+            },
+            "Phil Collins" : {
+                "years_active" : ["1970 - 1996", 2000, "2006 - 2007", "2020 - 2022"],
+                "instruments" : ["drums", "percussion", "drum machine", "lead and backing vocals"]
+            },
+            "Peter Gabriel" : {
+                "years_active" : ["1967 - 1975"],
+                "instruments" : ["lead vocals", "flute", "oboe", "percussion"]
+            },
+            "Anthony Phillips" : {
+                "years_active" : ["1967 - 1970"],
+                "instruments" : ["acoustic and electronic guitars", "dulcimer", "backing vocals"]
+            },
+            "Chris Stewart" : {
+                "years_active" : ["1967 - 1968"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "John Silver" : {
+                "years_active" : ["1968 - 1969"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "John Mayhew" : {
+                "years_active" : ["1969 - 1970"],
+                "instruments" : ["drums", "percussion", "backing vocals"]
+            },
+            "Mick Barnard" : {
+                "years_active" : ["1970 - 1971"],
+                "instruments" : ["acoustic and electronic guitars"]
+            },
+            "Steve Hackett" : {
+                "years_active" : ["1971 - 1977"],
+                "instruments" : ["acoustic and electronic guitars", "kalimba", "autoharp"]
+            },
+            "Ray Wilson" : {
+                "years_active" : ["1996 - 2000"],
+                "instruments" : ["lead vocals"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Genesis_(band)'> Genesis<a> is a band with a wikipedia page."
+    },
+    "Bozzio Levin Stevens" : {
+        "members" : {
+            "Terry Bozzio" : {
+                "years_active" : ["1997 - 2000"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Tony Levin" : {
+                "years_active" : ["1997 - 2000"],
+                "instruments" : ["Chapman stick", "bass guitar"]
+            },
+            "Steve Stevens" : {
+                "years_active" : ["1997 - 2000"],
+                "instruments" : ["guitar", "pedals"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Bozzio_Levin_Stevens'> Bozzio Levin Stevens<a> is a band with a wikipedia page."
+    },
+    "Liquid Tension Experiment" : {
+        "members" : {
+            "Tony Levin" : {
+                "years_active" : ["1997 - 1999", 2008, "2020 - present"],
+                "instruments" : ["Chapman stick", "bass guitar", "electric upright bass"]
+            },
+            "John Petrucci" : {
+                "years_active" : ["1997 - 1999", 2008, "2020 - present"],
+                "instruments" : ["guitar"]
+            },
+            "Mike Portnoy" : {
+                "years_active" : ["1997 - 1999", 2008, "2020 - present"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Jordan Rudess" : {
+                "years_active" : ["1997 - 1999", 2008, "2020 - present"],
+                "instruments" : ["keyboards"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Liquid_Tension_Experiment'> Liquid Tension Experiment<a> is a band with a wikipedia page."
+    },
+    "Stick Men" : {
+        "members" : {
+            "Tony Levin" : {
+                "years_active" : ["2007 - present"],
+                "instruments" : ["Chapman stick", "vocals"]
+            },
+            "Pat Mastelotto" : {
+                "years_active" : ["2007 - present"],
+                "instruments" : ["drums"]
+            },
+            "Markus Reuter" : {
+                "years_active" : ["2007 - present"],
+                "instruments" : ["touch guitar", "vocals"]
+            },
+            "Michael Bernier" : {
+                "years_active" : ["2007 - present"],
+                "instruments" : ["Chapman stick", "vocals"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Stick_Men_(prog_band)'> Stick Men<a> is a band with a wikipedia page."
+    },
+    "Dream Theater" : {
+        "members" : {
+            "John Petrucci" : {
+                "years_active" : ["1985 - present"],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "John Myung" : {
+                "years_active" : ["1985 - present"],
+                "instruments" : ["bass"]
+            },
+            "Mike Portnoy" : {
+                "years_active" : ["1985 - 2010", "2023 - present"],
+                "instruments" : ["drums", "backing vocals"]
+            },
+            "James Labrie" : {
+                "years_active" : ["1991 - present"],
+                "instruments" : ["lead vocals"]
+            },
+            "Jordan Rudess" : {
+                "years_active" : ["1999 - present"],
+                "instruments" : ["keyboards", "occasional guitar"]
+            },
+            "Chris Collins" : {
+                "years_active" : [1986],
+                "instruments" : ["lead vocals"]
+            },
+            "Charlie Dominici" : {
+                "years_active" : ["1987 - 1989"],
+                "instruments" : ["lead vocals"]
+            },
+            "Kevin Moore" : {
+                "years_active" : ["1986 - 1994"],
+                "instruments" : ["keyboards"]
+            },
+            "Derek Sherinian" : {
+                "years_active" : ["1995 - 1999"],
+                "instruments" : ["keyboards", "backing vocals"]
+            },
+            "Mike Mangini" : {
+                "years_active" : ["2010 - 2023"],
+                "instruments" : ["drums"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Dream_Theater'> Dream Theater<a> is a band with a wikipedia page."
+    },
+    "O.R.k." : {
+        "members" : {
+            "Colin Edwin" : {
+                "years_active" : ["2015 - present"],
+                "instruments" : ["bass"]
+            },
+            "Pat Mastelotto" : {
+                "years_active" : ["2015 - present"],
+                "instruments" : ["drums"]
+            },
+            "LEF" : {
+                "years_active" : ["2015 - present"],
+                "instruments" : ["vocals"]
+            },
+            "Carmelo Pipitone" : {
+                "years_active" : ["2015 - present"],
+                "instruments" : ["guitar"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/O.R.k.'> O.R.k.<a> is a band with a wikipedia page."
+    },
+    "Porcupine Tree" : {
+        "members" : {
+            "Steven Wilson" : {
+                "years_active" : ["1987 - 2010", "2021 - present"],
+                "instruments" : ["vocals", "guitars", "bass", "keyboards", "various instruments"]
+            },
+            "Richard Barbieri" : {
+                "years_active" : ["1993 - 2010", "2021 - present"],
+                "instruments" : ["synthesizers", "keyboards", "piano", "sound processing"]
+            },
+            "Gavin Harrison" : {
+                "years_active" : ["2002 - 2010", "2021 - present"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Chris Maitland" : {
+                "years_active" : ["1993 - 2002"],
+                "instruments" : ["drums", "percussion", "backing vocals"]
+            },
+            "Colin Edwin" : {
+                "years_active" : ["1993 - 2010"],
+                "instruments" : ["bass", "double bass", "giumbri", "drum machine"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Porcupine_Tree'> Porcupine Tree<a> is a band with a wikipedia page."
     }
 }
