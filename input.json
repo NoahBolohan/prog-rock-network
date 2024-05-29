@@ -115,20 +115,85 @@
     },
     "Yes" : {
         "members" : {
-            "Bill Bruford" : {
-                "years_active" : [1968, 1972, 1990, 1992]
+            "Steve Howe" : {
+                "years_active" : [1970, 1981, 1990, 1992, 1995, "present"],
+                "instruments" : ["guitar", "backing vocals", "lap steel", "pedal steel guitar", "lead vocals", "laud", "mandolin", "bass guitar", "sitar", "banjo"]
             },
-            "Tony Kaye" : {
-                "years_active" : [1968, 1971, 1983, 1995]
+            "Geoff Downes" : {
+                "years_active" : [1980, 1981, 2011, "present"],
+                "instruments" : ["keyboards", "vocoder", "programming"]
             },
-            "Peter Banks" : {
-                "years_active" : [1968, 1970]
+            "Billy Sherwood" : {
+                "years_active" : [1997, 2000, 2015, "present"],
+                "instruments" : ["bass guitar", "keyboards", "guitar", "backing vocals", "lead vocals", "timpani", "harmonica"]
             },
-            "Chris Squire" : {
-                "years_active" : [1968, 1981, 1983, 2004, 2008, 2015]
+            "Jon Davison" : {
+                "years_active" : [2012, "present"],
+                "instruments" : ["lead vocals", "guitar", "percussion", "keyboards"]
+            },
+            "Jay Schellen" : {
+                "years_active" : [2016, 2017, 2023, "present"],
+                "instruments" : ["drums", "percussion", "backing vocals"]
             },
             "Jon Anderson" : {
-                "years_active" : [1968, 1980, 1983, 1988, 1990, 2004]
+                "years_active" : [1968, 1980, 1983, 1988, 1990, 2004],
+                "instruments" : ["lead vocals", "guitar", "percussion", "harp", "keyboards", "cuatro"]
+            },
+            "Chris Squire" : {
+                "years_active" : [1968, 1981, 1983, 2004, 2008, 2015],
+                "instruments" : ["bass guitar", "backing vocals", "piano", "harmonica", "bass pedals", "timpani", "lead vocals"]
+            },
+            "Tony Kaye" : {
+                "years_active" : [1968, 1971, 1983, 1995],
+                "instruments" : ["organ", "piano", "moog", "backing vocals"]
+            },
+            "Bill Bruford" : {
+                "years_active" : [1968, 1972, 1990, 1992],
+                "instruments" : ["drums", "percussion", "vibraphone", "piano"]
+            },
+            "Peter Banks" : {
+                "years_active" : [1968, 1970],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "Tony O'Reilly" : {
+                "years_active" : [1968, 1970],
+                "instruments" : ["drums"]
+            },
+            "Rick Wakeman" : {
+                "years_active" : [1971, 1974, 1976, 1980, 1990, 1992, 1995, 1996, 2002, 2004],
+                "instruments" : ["keyboards", "percussion"]
+            },
+            "Alan White" : {
+                "years_active" : [1972, 1981, 1983, 2022],
+                "instruments" : ["drums", "percussion", "backing vocals", "piano", "synthesizers"]
+            },
+            "Patrick Moraz" : {
+                "years_active" : [1974, 1976],
+                "instruments" : ["keyboards"]
+            },
+            "Trevor Horn" : {
+                "years_active" : [1980, 1981],
+                "instruments" : ["lead vocals", "bass", "guitar", "percussion", "keyboards"]
+            },
+            "Trevor Rabin" : {
+                "years_active" : [1983, 1995],
+                "instruments" : ["guitar", "backing vocals", "keyboards", "lead vocals", "programming"]
+            },
+            "Eddie Jobson" : {
+                "years_active" : [1983],
+                "instruments" : ["keyboards"]
+            },
+            "Igor Khoroshev" : {
+                "years_active" : [1997, 2000],
+                "instruments" : ["keyboards", "backing vocals"]
+            },
+            "Benoît David" : {
+                "years_active" : [2008, 2012],
+                "instruments" : ["lead vocals", "acoustic guitar", "tambourine"]
+            },
+            "Oliver Wakeman" : {
+                "years_active" : [2008, 2011],
+                "instruments" : ["keyboards", "backing vocals"]
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/Yes_(band)'> Yes<a> is a band with a wikipedia page."
