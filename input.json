@@ -1,0 +1,47 @@
+{
+    "Rush" : {
+        "Geddy Lee" : {
+            "years_active" : [1969, 2015, 2022, 2030]
+        },
+        "Alex Lifeson" : {
+            "years_active" : [1968, 2015]
+        },
+        "Neil Peart" : {
+            "years_active" : [1974, 2015]
+        }
+    },
+    "King Crimson" : {
+        "Robert Fripp" : {
+            "years_active" : [1969, 2015]
+        },
+        "John Wetton" : {
+            "years_active" : [1969, 2015]
+        },
+        "Bill Bruford" : {
+            "years_active" : [1969, 2015]
+        },
+        "David Cross" : {
+            "years_active" : [1969, 2015]
+        },
+        "Jamie Muir" : {
+            "years_active" : [1969, 2015]
+        }
+    },
+    "Yes" : {
+        "Bill Bruford" : {
+            "years_active" : [1969, 2015]
+        },
+        "Tony Kaye" : {
+            "years_active" : [1969, 2015]
+        },
+        "Peter Banks" : {
+            "years_active" : [1969, 2015]
+        },
+        "Chris Squire" : {
+            "years_active" : [1969, 2015]
+        },
+        "Jon Anderson" : {
+            "years_active" : [1969, 2015]
+        }
+    }
+}
