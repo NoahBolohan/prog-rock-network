@@ -538,7 +538,7 @@
         },
         "title" : "<a https://en.wikipedia.org/wiki/Earthworks_(band)'> Earthworks<a> is a band with a wikipedia page."
     },
-    "IfSummerHadItsGhosts" : {
+    "If Summer Had Its Ghosts" : {
         "members" : {
             "Bill Bruford" : {
                 "years_active" : [1997],
@@ -554,5 +554,266 @@
             }
         },
         "title" : "<a https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts'> If Summer Had Its Ghosts<a> is an album with a wikipedia page."
+    },
+    "Mogul Trash" : {
+        "members" : {
+            "James Litherland" : {
+                "years_active" : [1971],
+                "instruments" : ["guitar", "vocals"]
+            },
+            "John Wetton" : {
+                "years_active" : [1971],
+                "instruments" : ["bass", "vocals", "guitar"]
+            },
+            "Malcolm Duncan" : {
+                "years_active" : [1971],
+                "instruments" : ["tenor saxophone"]
+            },
+            "Michael Rosen" : {
+                "years_active" : [1971],
+                "instruments" : ["trumpet", "mellophone", "guitar"]
+            },
+            "Roger Ball" : {
+                "years_active" : [1971],
+                "instruments" : ["saxophones", "brass arrangements"]
+            },
+            "Bill Harrison" : {
+                "years_active" : [1971],
+                "instruments" : ["drums"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Mogul_Thrash'> Mogul Trash<a> is a band with a wikipedia page."
+    },
+    "Family" : {
+        "members" : {
+            "Roger Chapman" : {
+                "years_active" : ["1966 - 1973, 2013 - 2016"],
+                "instruments" : ["vocals", "harmonica", "saxophones", "percussion"]
+            },
+            "Rob Townsend" : {
+                "years_active" : ["1967 - 1973", "2013 - 2016"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "John 'Poli' Palmer" : {
+                "years_active" : ["1969 - 1972", "2013 - 2016"],
+                "instruments" : ["keyboards", "flute", "vibraphone", "synthesizers", "backing vocals"]
+            },
+            "Jim Cregan" : {
+                "years_active" : ["1972 - 1973", "2013 - 2016"],
+                "instruments" : ["bass", "guitars", "backing vocals"]
+            },
+            "John 'Charlie' Whitney" : {
+                "years_active" : ["1966 - 1973"],
+                "instruments" : ["guitar", "sitar", "keyboards"]
+            },
+            "Jim King" : {
+                "years_active" : ["1966 - 1969"],
+                "instruments" : ["saxophones", "harmonica", "tin whistle", "piano", "vocals"]
+            },
+            "Ric Grech" : {
+                "years_active" : ["1966 - 1969"],
+                "instruments" : ["bass", "violin", "cello", "vocals"]
+            },
+            "Harry Ovenall" : {
+                "years_active" : ["1966 - 1967"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "John Weider" : {
+                "years_active" : ["1969 - 1971"],
+                "instruments" : ["bass", "guitar", "violin", "backing vocals"]
+            },
+            "John Wetton" : {
+                "years_active" : ["1971 - 1972"],
+                "instruments" : ["bass", "guitar", "keyboards", "vocals"]
+            },
+            "Tony Ashton" : {
+                "years_active" : ["1972 - 1973"],
+                "instruments" : ["keyboards", "accordion", "mellotron", "backing vocals"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Family_(band)'> Family<a> is a band with a wikipedia page."
+    },
+    "Roxy Music" : {
+        "members" : {
+            "Bryan Ferry" : {
+                "years_active" : ["1970 - 1976", "1978 - 1983", "2001 - 2011", 2019, 2022],
+                "instruments" : ["vocals", "keyboards", "piano", "harmonica", "occasional rhythm guitar"]
+            },
+            "Andy Mackay" : {
+                "years_active" : ["1970 - 1976", "1978 - 1983", "2001 - 2011", 2019, 2022],
+                "instruments" : ["saxophone", "oboe", "keyboards", "backing vocals"]
+            },
+            "Paul Thompson" : {
+                "years_active" : ["1970 - 1976", "1978 - 1979", "2001 - 2006", "2006 - 2011", 2022],
+                "instruments" : ["drums"]
+            },
+            "Phil Manzanera" : {
+                "years_active" : ["1972 - 1976", "1978 - 1983", "2001 - 2011", 2019, 2022],
+                "instruments" : ["lead guitar", "occasional backing vocals and bass"]
+            },
+            "Brian Eno" : {
+                "years_active" : ["1970 - 1973"],
+                "instruments" : ["synthesizer", "treatments", "backing vocals"]
+            },
+            "Graham Simpson" : {
+                "years_active" : ["1970 - 1972"],
+                "instruments" : ["bass"]
+            },
+            "Dexter Lloyd" : {
+                "years_active" : ["1970 - 1971"],
+                "instruments" : ["drums"]
+            },
+            "Roger Bunn" : {
+                "years_active" : ["1970 - 1971"],
+                "instruments" : ["guitar"]
+            },
+            "David O'List" : {
+                "years_active" : ["1971 - 1972"],
+                "instruments" : ["guitar"]
+            },
+            "Rik Kenton" : {
+                "years_active" : ["1972 - 1973"],
+                "instruments" : ["bass"]
+            },
+            "John Porter" : {
+                "years_active" : [1973],
+                "instruments" : ["bass"]
+            },
+            "Eddie Jobson" : {
+                "years_active" : ["1973 - 1976", 2019],
+                "instruments" : ["keyboards", "synthesizers", "electric violin", "backing vocals"]
+            },
+            "John Gustafson" : {
+                "years_active" : [1973, 1974, 1975],
+                "instruments" : ["bass"]
+            },
+            "Sal Maida" : {
+                "years_active" : ["1973 - 1974"],
+                "instruments" : ["bass"]
+            },
+            "John Wetton" : {
+                "years_active" : ["1974 - 1975"],
+                "instruments" : ["bass"]
+            },
+            "Rick Willis" : {
+                "years_active" : ["1975 - 1976"],
+                "instruments" : ["bass"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Roxy_Music'> Roxy Music<a> is a band with a wikipedia page."
+    },
+    "Qango" : {
+        "members" : {
+            "John Wetton" : {
+                "years_active" : ["1999 - 2000"],
+                "instruments" : ["bass guitar", "lead vocals"]
+            },
+            "David Kilminster" : {
+                "years_active" : ["1999 - 2000"],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "John Young" : {
+                "years_active" : ["1999 - 2000"],
+                "instruments" : ["keyboards", "backing vocals"]
+            },
+            "Carl Palmer" : {
+                "years_active" : ["1999 - 2000"],
+                "instruments" : ["drums"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Qango_(band)'> Qango<a> is a band with a wikipedia page."
+    },
+    "Wishbone Ash" : {
+        "members" : {
+            "Andy Powell" : {
+                "years_active" : ["1969 - present"],
+                "instruments" : ["guitar", "vocals", "mandolin"]
+            },
+            "Bob Skeat" : {
+                "years_active" : ["1997 - present"],
+                "instruments" : ["bass", "backing vocals", "occasional keyboards"]
+            },
+            "Mark Abrahams" : {
+                "years_active" : ["2017 - present"],
+                "instruments" : ["guitar"]
+            },
+            "Mike Truscott" : {
+                "years_active" : ["2022 - present"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Steve Upton" : {
+                "years_active" : ["1969 - 1990"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Martin Turner" : {
+                "years_active" : ["1969 - 1980", "1987 - 1991", "1995 - 1996"],
+                "instruments" : ["bass", "vocals", "keyboards"]
+            },
+            "Ted Turner" : {
+                "years_active" : ["1969 - 1974", "1987 - 1994"],
+                "instruments" : ["guitar", "vocals", "banjo"]
+            },
+            "Laurie Wisefield" : {
+                "years_active" : ["1974 - 1985"],
+                "instruments" : ["guitar", "vocals", "banjo"]
+            },
+            "John Wetton" : {
+                "years_active" : ["1981 - 1981"],
+                "instruments" : ["bass", "vocals", "keyboards"]
+            },
+            "Trevor Bolder" : {
+                "years_active" : ["1981 - 1983"],
+                "instruments" : ["bass", "vocals"]
+            },
+            "Mervyn Spence" : {
+                "years_active" : ["1983 - 1986"],
+                "instruments" : ["bass", "vocals"]
+            },
+            "Jamie Crompton" : {
+                "years_active" : ["1985 - 1987", 1988],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "Andy Pyle" : {
+                "years_active" : ["1986 - 1987", "1991 - 1994"],
+                "instruments" : ["bass", "vocals"]
+            },
+            "Robbie France" : {
+                "years_active" : [1990],
+                "instruments" : ["drums"]
+            },
+            "Ray Weston" : {
+                "years_active" : ["1990 - 1994", "1997 - 2007"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Roger Filgate" : {
+                "years_active" : ["1994 - 1997"],
+                "instruments" : ["guitar", "backing vocals", "bass", "keyboards"]
+            },
+            "Mike Sturgis" : {
+                "years_active" : ["1994 - 1997"],
+                "instruments" : ["drums"]
+            },
+            "Tony Kishman" : {
+                "years_active" : ["1994 - 1995", "1996 - 1997"],
+                "instruments" : ["bass", "vocals"]
+            },
+            "Mark Birch" : {
+                "years_active" : ["1997 - 2001"],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "Ben Granfelt" : {
+                "years_active" : ["2001 - 2004"],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "Muddy Manninen" : {
+                "years_active" : ["2004 - 2017"],
+                "instruments" : ["guitar", "backing vocals"]
+            },
+            "Joe Crabtree" : {
+                "years_active" : ["2007 - 2022"],
+                "instruments" : ["drums", "percussion", "backing vocals"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Wishbone_Ash'> Wishbone Ash<a> is a band with a wikipedia page."
     }
 }
