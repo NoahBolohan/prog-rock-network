@@ -38,6 +38,6 @@ for i, (band, members) in enumerate(data.items()):
         )
 
 net.show(
-    r"./docs/index.html",
+    r"index.html",
     notebook = False
 )
