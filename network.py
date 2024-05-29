@@ -27,18 +27,19 @@ for i, (band, info) in enumerate(data.items()):
             size = 10
         )
 
-        edge_header = f"{member} ({band})"
+        edge_header = f"<b>{member} ({band})</b>"
 
-        years_active_str = "Years active:\n" + ',\n'.join(
-            [
-                f"{info['years_active'][2*ya_idx]} - {info['years_active'][2*ya_idx + 1]}" for ya_idx in range(int(len(info['years_active'])/2))
-            ]
+        years_active_str = "<b>Years active:</b><br>" + ',<br>'.join(
+            [str(entry) for entry in info['years_active']]
         )
 
-        title_str = '\n'.join(
+        instruments_str = "<b>Instruments:</b><br>" + ',<br>'.join(info['instruments'])
+
+        title_str = '<br><br>'.join(
             [
                 edge_header,
-                years_active_str
+                years_active_str,
+                instruments_str
             ]
         )
 
