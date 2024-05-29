@@ -117,7 +117,7 @@
         "members" : {
             "Steve Howe" : {
                 "years_active" : ["1970 - 1981", "1990 - 1992", "1995 - present"],
-                "instruments" : ["guitar", "backing vocals", "lap steel", "pedal steel guitar", "lead vocals", "laud", "mandolin", "bass guitar", "sitar", "banjo"]
+                "instruments" : ["guitar", "backing vocals", "lap steel guitar", "pedal steel guitar", "lead vocals", "laud", "mandolin", "bass guitar", "sitar", "banjo"]
             },
             "Geoff Downes" : {
                 "years_active" : ["1980 - 1981", "2011 - present"],
@@ -278,5 +278,281 @@
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/Asia_(band)'> Asia<a> is a band with a wikipedia page."
+    },
+    "Giles, Giles and Fripp" : {
+        "members" : {
+            "Robert Fripp" : {
+                "years_active" : ["1967 - 1968"],
+                "instruments" : ["guitar", "mellotron"]
+            },
+            "Peter Giles" : {
+                "years_active" : ["1967 - 1968"],
+                "instruments" : ["bass guitar", "vocals"]
+            },
+            "Michael Giles" : {
+                "years_active" : ["1967 - 1968"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Ian McDonald" : {
+                "years_active" : [1968],
+                "instruments" : ["saxophone", "flute", "clarinet", "guitar", "vocals"]
+            },
+            "Judy Dyble" : {
+                "years_active" : [1968],
+                "instruments" : ["vocals"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp'> Giles, Giles and Fripp<a> is a band with a wikipedia page."
+    },
+    "Fripp & Eno" : {
+        "members" : {
+            "Robert Fripp" : {
+                "years_active" : ["1973 - 1979", 2005],
+                "instruments" : ["guitar", "Fripp Pedalboard", "Frizzbox"]
+            },
+            "Brian Eno" : {
+                "years_active" : ["1973 - 1979", 2005],
+                "instruments" : ["keyboards", "synthesizers", "tape recorders"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Fripp_%26_Eno'> Fripp & Eno<a> is a band with a wikipedia page."
+    },
+    "The League of Gentlemen" : {
+        "members" : {
+            "Robert Fripp" : {
+                "years_active" : [1980],
+                "instruments" : ["guitar"]
+            },
+            "Sara Lee" : {
+                "years_active" : [1980],
+                "instruments" : ["bass"]
+            },
+            "Barry Andrews" : {
+                "years_active" : [1980],
+                "instruments" : ["organ"]
+            },
+            "Kevin Wilkinson" : {
+                "years_active" : [1980],
+                "instruments" : ["drums"]
+            },
+            "Johnny Toobad" : {
+                "years_active" : [1980],
+                "instruments" : ["drums"]
+            },
+            "Danielle Dax" : {
+                "years_active" : [1980],
+                "instruments" : ["vocals", "lyrics"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)'> The League of Gentlemen<a> is a band with a wikipedia page."
+    },
+    "Emerson, Lake & Palmer" : {
+        "members" : {
+            "Keith Emerson" : {
+                "years_active" : ["1970 - 1979", "1991 - 1998", 2010, "2010 - 2011"],
+                "instruments" : ["piano", "organ", "keyboards", "synthesizers"]
+            },
+            "Greg Lake" : {
+                "years_active" : ["1970 - 1979", "1991 - 1998", 2010, "2010 - 2011"],
+                "instruments" : ["vocals", "lead guitar", "bass guitar", "acoustic guitar"]
+            },
+            "Carl Palmer" : {
+                "years_active" : ["1970 - 1979", "1991 - 1998", 2010, "2010 - 2011"],
+                "instruments" : ["drums", "percussion"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Palmer'> Emerson, Lake & Palmer<a> is a band with a wikipedia page."
+    },
+    "McDonald and Giles" : {
+        "members" : {
+            "Ian McDonald" : {
+                "years_active" : [1970],
+                "instruments" : ["guitar", "piano", "organ", "saxophones", "flute", "clarinet", "zither", "vocals", "sundries"]
+            },
+            "Michael Giles" : {
+                "years_active" : [1970],
+                "instruments" : ["drums", "percussion", "vocals"]
+            },
+            "Peter Giles" : {
+                "years_active" : [1970],
+                "instruments" : ["bass guitar"]
+            },
+            "Steve Winwood" : {
+                "years_active" : [1970],
+                "instruments" : ["organ", "piano"]
+            },
+            "Michael Blakesley" : {
+                "years_active" : [1970],
+                "instruments" : ["trombone"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/McDonald_and_Giles'> McDonald and Giles<a> is a band with a wikipedia page."
+    },
+    "Emerson, Lake & Powell" : {
+        "members" : {
+            "Keith Emerson" : {
+                "years_active" : ["1985 - 1986"],
+                "instruments" : ["keyboards"]
+            },
+            "Greg Lake" : {
+                "years_active" : ["1985 - 1986"],
+                "instruments" : ["bass", "guitar", "vocals"]
+            },
+            "Cozy Powell" : {
+                "years_active" : ["1985 - 1986"],
+                "instruments" : ["drums", "percussion"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Powell'> Emerson, Lake & Powell<a> is a band with a wikipedia page."
+    },
+    "U.K." : {
+        "members" : {
+            "Eddie Jobson" : {
+                "years_active" : ["1977 - 1980", 2009, "2011 - 2015"],
+                "instruments" : ["keyboards", "backing vocals", "violin"]
+            },
+            "John Wetton" : {
+                "years_active" : ["1977 - 1980", 2009, "2011 - 2015"],
+                "instruments" : ["bass", "lead vocals"]
+            },
+            "Allan Holdsworth" : {
+                "years_active" : ["1977 - 1978"],
+                "instruments" : ["guitar"]
+            },
+            "Bill Bruford" : {
+                "years_active" : ["1977 - 1978"],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Terry Bozzio" : {
+                "years_active" : ["1977 - 1980", 2012, 2013],
+                "instruments" : ["drums", "percussion", "backing vocals"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/U.K._(band)'> U.K.<a> is a band with a wikipedia page."
+    },
+    "Moraz/Bruford" : {
+        "members" : {
+            "Patrick Moraz" : {
+                "years_active" : ["1983 - 1985"],
+                "instruments" : ["grand piano"]
+            },
+            "Bill Bruford" : {
+                "years_active" : ["1983 - 1985"],
+                "instruments" : ["acoustic drums"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums'> Moraz/Bruford<a> is a band without a wikipedia page."
+    },
+    "Anderson Bruford Wakeman Howe" : {
+        "members" : {
+            "Jon Anderson" : {
+                "years_active" : ["1988 - 1991"],
+                "instruments" : ["lead and backing vocals", "acoustic guitar", "percussion", "harp"]
+            },
+            "Bill Bruford" : {
+                "years_active" : ["1988 - 1991"],
+                "instruments" : ["acoustic and electronic drums", "percussion"]
+            },
+            "Rick Wakeman" : {
+                "years_active" : ["1988 - 1991"],
+                "instruments" : ["keyboards"]
+            },
+            "Steve Howe" : {
+                "years_active" : ["1988 - 1991"],
+                "instruments" : ["acoustic and electronic guitars", "lap steel guitar", "backing vocals"]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe'> Anderson Bruford Wakeman Howe<a> is a band with a wikipedia page."
+    },
+    "Bruford Levin Upper Extremeties" : {
+        "members" : {
+            "Bill Bruford" : {
+                "years_active" : ["1998 - 2000"],
+                "instruments" : ["drums", "percussion", "keyboards"]
+            },
+            "Chris Botti" : {
+                "years_active" : ["1998 - 2000"],
+                "instruments" : ["trumpet"]
+            },
+            "Tony Levin" : {
+                "years_active" : ["1998 - 2000"],
+                "instruments" : ["bass guitar", "Chapman stick"]
+            },
+            "Davin Torn" : {
+                "years_active" : ["1998 - 2000"],
+                "instruments" : ["guitar", "loops"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Bruford_Levin_Upper_Extremities'> Bruford Levin Upper Extremities<a> is a band with a wikipedia page."
+    },
+    "Earthworks" : {
+        "members" : {
+            "Bill Bruford" : {
+                "years_active" : ["1986 - 2008"],
+                "instruments" : ["acoustic and electronic drums", "percussion"]
+            },
+            "Iain Ballamy" : {
+                "years_active" : ["1986 - 1993"],
+                "instruments" : ["saxophones"]
+            },
+            "Django Bates" : {
+                "years_active" : ["1986 - 1993"],
+                "instruments" : ["piano", "keyboards", "tenor horn", "trumpet", "pocket trumpet"]
+            },
+            "Mick Hutton" : {
+                "years_active" : ["1986 - 1988"],
+                "instruments" : ["double bass"]
+            },
+            "Tim Harries" : {
+                "years_active" : ["1986 - 1993"],
+                "instruments" : ["double bass", "bass guitar"]
+            },
+            "Steve Hamilton" : {
+                "years_active" : ["1997 - 2004"],
+                "instruments" : ["piano", "keyboards"]
+            },
+            "Patrick Clahar" : {
+                "years_active" : ["1997 - 2001"],
+                "instruments" : ["saxophones"]
+            },
+            "Geoff Gascoigne" : {
+                "years_active" : ["1997 - 1998"],
+                "instruments" : ["double bass"]
+            },
+            "Mark Hodgson" : {
+                "years_active" : ["1998 - 2005"],
+                "instruments" : ["double bass"]
+            },
+            "Gwilym Simcock" : {
+                "years_active" : ["2004 - 2008"],
+                "instruments" : ["piano", "keyboard"]
+            },
+            "Tim Garland" : {
+                "years_active" : ["2001 - 2008"],
+                "instruments" : ["saxophones", "clarinet", "bass clarinet", "flute"]
+            },
+            "Laurence Cottle" : {
+                "years_active" : ["2005 - 2008"],
+                "instruments" : ["bass guitar"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/Earthworks_(band)'> Earthworks<a> is a band with a wikipedia page."
+    },
+    "IfSummerHadItsGhosts" : {
+        "members" : {
+            "Bill Bruford" : {
+                "years_active" : [1997],
+                "instruments" : ["drums", "percussion"]
+            },
+            "Ralph Towner" : {
+                "years_active" : [1997],
+                "instruments" : ["twelve-string guitar", "classical guitar", "piano", "keyboards"]
+            },
+            "Eddie Gómez" : {
+                "years_active" : [1997],
+                "instruments" : ["bass"]
+            }
+        },
+        "title" : "<a https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts'> If Summer Had Its Ghosts<a> is an album with a wikipedia page."
     }
 }
