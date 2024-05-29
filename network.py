@@ -27,9 +27,18 @@ for i, (band, info) in enumerate(data.items()):
             size = 10
         )
 
+        edge_header = f"{member} ({band})"
+
         years_active_str = "Years active:\n" + ',\n'.join(
             [
                 f"{info['years_active'][2*ya_idx]} - {info['years_active'][2*ya_idx + 1]}" for ya_idx in range(int(len(info['years_active'])/2))
+            ]
+        )
+
+        title_str = '\n'.join(
+            [
+                edge_header,
+                years_active_str
             ]
         )
 
@@ -37,7 +46,7 @@ for i, (band, info) in enumerate(data.items()):
             band,
             member,
             width = 3,
-            title = years_active_str
+            title = title_str
         )
 
 net.show(

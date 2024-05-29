@@ -1,14 +1,17 @@
 {
     "Rush" : {
         "members" : {
-            "Geddy Lee" : {
-                "years_active" : [1969, 2015, 2022, 2030]
-            },
             "Alex Lifeson" : {
-                "years_active" : [1968, 2015]
+                "years_active" : [1968, 2015],
+                "instruments" : ["guitars", "backing vocals", "synthesizers", "additional keyboards"]
+            },
+            "Geddy Lee" : {
+                "years_active" : [1968, 2015],
+                "instruments" : ["lead and backing vocals", "bass guitar", "keyboards", "synthesizers", "guitar"]
             },
             "Neil Peart" : {
-                "years_active" : [1974, 2015]
+                "years_active" : [1974, 2015],
+                "instruments" : ["drums", "percussion", "lyrics"]
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/Rush_(band)'> Rush<a> is a band with a wikipedia page."
@@ -16,19 +19,96 @@
     "King Crimson" : {
         "members" : {
             "Robert Fripp" : {
-                "years_active" : [1968, 1974, 1981, 1984, 1994, 2008, 2013, 2021]
+                "years_active" : [1968, 1974, 1981, 1984, 1994, 2008, 2013, 2021],
+                "instruments" : ["guitar", "keyboards", "mellotron", "electronics", "samples and effects"]
             },
-            "John Wetton" : {
-                "years_active" : [1972, 1974]
+            "Peter Sinfield" : {
+                "years_active" : [1968, 1972],
+                "instruments" : ["lyrics", "light shows", "synthesizer"]
+            },
+            "Michael Giles" : {
+                "years_active" : [1968, 1970],
+                "instruments" : ["drums", "percussion", "backing vocals"]
+            },
+            "Greg Lake" : {
+                "years_active" : [1968, 1970],
+                "instruments" : ["bass", "lead vocals"]
+            },
+            "Ian McDonald" : {
+                "years_active" : [1968, 1970],
+                "instruments" : ["saxophones", "flute", "clarinet", "bass clarinet", "keyboards", "mellotron", "vibraphone", "backing and occasional lead vocals"]
+            },
+            "Mel Collins" : {
+                "years_active" : [1970, 1972, 2013, 2021],
+                "instruments" : ["saxophones", "flute", "bass flute", "mellotron", "keyboards", "backing vocals"]
+            },
+            "Peter Giles" : {
+                "years_active" : [1970],
+                "instruments" : ["bass"]
+            },
+            "Gordon Haskell" : {
+                "years_active" : [1970],
+                "instruments" : ["bass", "lead vocals"]
+            },
+            "Andy McCulloch" : {
+                "years_active" : [1970],
+                "instruments" : ["drums"]
+            },
+            "Ian Wallace" : {
+                "years_active" : [1970, 1972],
+                "instruments" : ["drums", "percussion", "backing vocals"]
+            },
+            "Raymond 'Boz' Burrell" : {
+                "years_active" : [1971, 1972],
+                "instruments" : ["bass", "lead vocals"]
             },
             "Bill Bruford" : {
-                "years_active" : [1972, 1974, 1981, 1984, 1994, 1999]
+                "years_active" : [1972, 1974, 1981, 1984, 1994, 1999],
+                "instruments" : ["drums", "percussion"]
+            },
+            "John Wetton" : {
+                "years_active" : [1972, 1974],
+                "instruments" : ["bass", "piano", "lead vocals", "violin"]
             },
             "David Cross" : {
-                "years_active" : [1972, 1974]
+                "years_active" : [1972, 1974],
+                "instruments" : ["violin", "viola", "flute", "keyboards"]
             },
             "Jamie Muir" : {
-                "years_active" : [1972, 1973]
+                "years_active" : [1972, 1973],
+                "instruments" : ["percussion", "drums"]
+            },
+            "Adrian Belew" : {
+                "years_active" : [1981, 1984, 1994, 2008],
+                "instruments" : ["guitar", "lead vocals", "occasional drums and percussion", "lyrics"]
+            },
+            "Tony Levin" : {
+                "years_active" : [1981, 1984, 1994, 1999, 2003, 2008, 2013, 2021],
+                "instruments" : ["bass", "touch bass", "Chapman stick", "synthesizers", "backing vocals"]
+            },
+            "Pat Mastelotto" : {
+                "years_active" : [1994, 2008, 2013, 2021],
+                "instruments" : ["electronic and acoustic drums", "acoustic and electronic percussion"]
+            },
+            "Trey Gunn" : {
+                "years_active" : [1994, 2003],
+                "instruments" : ["Warr guitar", "Chapman stick", "backing vocals", "touch bass", "bass"]
+            },
+            "Gavin Harrison" : {
+                "years_active" : [2007, 2008, 2013, 2021],
+                "instruments" : ["acoustic and electronic drums", "electronic and acoustic percussion"]
+            },
+            "Jakko Jakszyk" : {
+                "years_active" : [2013, 2021],
+                "instruments" : ["guitar", "keyboards", "flute", "lead vocals", "lyrics"]
+            },
+            "Bill Rieflin" : {
+                "years_active" : [2013, 2016, 2017, 2019],
+                "instruments" : ["keyboards", "synthesizers", "mellotron", "drums", "percussion", "backing vocals"]
+            },
+            "Jeremy Stacey" : {
+                "years_active" : [2016, 2021],
+                "instruments" : ["drums", "keyboards", "backing vocals"]
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/King_Crimson'> King Crimson<a> is a band with a wikipedia page."
