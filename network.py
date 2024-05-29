@@ -6,19 +6,19 @@ net = Network()
 with open("./input.json") as f:
     data = json.load(f)
 
-for i, (band, members) in enumerate(data.items()):
+for i, (band, info) in enumerate(data.items()):
 
     net.add_node(
         band,
         label = band,
         group = band,
-        title = f"<a href='https://en.wikipedia.org/wiki/{band}_(band)'> {band}<a> is a band with a wikipedia page.",
+        title = info["title"],
         size = 30,
         shape = "circularImage",
         image = f"static/{band.replace(' ', '')}.png"
     )
 
-    for j, (member, info) in enumerate(members.items()):
+    for j, (member, info) in enumerate(info["members"].items()):
         net.add_node(
             member,
             label = member,
