@@ -16,19 +16,19 @@
     "King Crimson" : {
         "members" : {
             "Robert Fripp" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1968, 1974, 1981, 1984, 1994, 2008, 2013, 2021]
             },
             "John Wetton" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1972, 1974]
             },
             "Bill Bruford" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1972, 1974, 1981, 1984, 1994, 1999]
             },
             "David Cross" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1972, 1974]
             },
             "Jamie Muir" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1972, 1973]
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/King_Crimson'> King Crimson<a> is a band with a wikipedia page."
@@ -36,21 +36,38 @@
     "Yes" : {
         "members" : {
             "Bill Bruford" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1968, 1972, 1990, 1992]
             },
             "Tony Kaye" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1968, 1971, 1983, 1995]
             },
             "Peter Banks" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1968, 1970]
             },
             "Chris Squire" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1968, 1981, 1983, 2004, 2008, 2015]
             },
             "Jon Anderson" : {
-                "years_active" : [1969, 2015]
+                "years_active" : [1968, 1980, 1983, 1988, 1990, 2004]
             }
         },
         "title" : "<a href='https://en.wikipedia.org/wiki/Yes_(band)'> Yes<a> is a band with a wikipedia page."
+    },
+    "Asia" : {
+        "members" : {
+            "John Wetton" : {
+                "years_active" : [1981, 1983, 1984, 1986, 1989, 1991, 2006, 2017]
+            },
+            "Steve Howe" : {
+                "years_active" : [1981, 1984, 1992, 1993, 2006, 2013]
+            },
+            "Geoff Downes" : {
+                "years_active" : [1981, 1986, 1990, "present"]
+            },
+            "Carl Palmer" : {
+                "years_active" : [1981, 1986, 1989, 1992, 2006, 2022]
+            }
+        },
+        "title" : "<a href='https://en.wikipedia.org/wiki/Asia_(band)'> Asia<a> is a band with a wikipedia page."
     }
 }

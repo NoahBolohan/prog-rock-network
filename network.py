@@ -12,10 +12,12 @@ for i, (band, info) in enumerate(data.items()):
         band,
         label = band,
         group = band,
-        title = info["title"],
-        size = 30,
+        # title = info["title"],
         shape = "circularImage",
-        image = f"static/{band.replace(' ', '')}.png"
+        image = f"static/{band.replace(' ', '')}.png",
+        size = 30,
+        borderWidth = 5,
+        borderWidthSelected = 15
     )
 
     for j, (member, info) in enumerate(info["members"].items()):
@@ -25,7 +27,7 @@ for i, (band, info) in enumerate(data.items()):
             size = 10
         )
 
-        years_active_str = "Years active: " + ', '.join(
+        years_active_str = "Years active:\n" + ',\n'.join(
             [
                 f"{info['years_active'][2*ya_idx]} - {info['years_active'][2*ya_idx + 1]}" for ya_idx in range(int(len(info['years_active'])/2))
             ]
