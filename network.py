@@ -14,7 +14,7 @@ for i, (band, members) in enumerate(data.items()):
         group = band,
         size = 30,
         shape = "circularImage",
-        image = rf"C:\Git\prog-rock-network\static\{band.replace(' ', '')}.png"
+        image = f"./static/{band.replace(' ', '')}.png"
     )
 
     for j, (member, info) in enumerate(members.items()):
