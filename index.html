@@ -45,6 +45,25 @@
              
 
              
+             /* position absolute is important and the container has to be relative or absolute as well. */
+          div.popup {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 display:none;
+                 background-color:#f5f4ed;
+                 -moz-border-radius: 3px;
+                 -webkit-border-radius: 3px;
+                 border-radius: 3px;
+                 border: 1px solid #808074;
+                 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+          }
+
+          /* hide the original tooltip */
+          .vis-tooltip {
+            display:none;
+          }
+             
         </style>
     </head>
 
@@ -88,7 +107,7 @@
                   
 
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"group": "Rush", "id": "Rush", "image": "static/Rush.png", "label": "Rush", "shape": "circularImage", "size": 30}, {"color": "#97c2fc", "id": "Geddy Lee", "label": "Geddy Lee", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Alex Lifeson", "label": "Alex Lifeson", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Neil Peart", "label": "Neil Peart", "shape": "dot", "size": 10}, {"group": "King Crimson", "id": "King Crimson", "image": "static/KingCrimson.png", "label": "King Crimson", "shape": "circularImage", "size": 30}, {"color": "#97c2fc", "id": "Robert Fripp", "label": "Robert Fripp", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "John Wetton", "label": "John Wetton", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Bill Bruford", "label": "Bill Bruford", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "David Cross", "label": "David Cross", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Jamie Muir", "label": "Jamie Muir", "shape": "dot", "size": 10}, {"group": "Yes", "id": "Yes", "image": "static/Yes.png", "label": "Yes", "shape": "circularImage", "size": 30}, {"color": "#97c2fc", "id": "Tony Kaye", "label": "Tony Kaye", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Peter Banks", "label": "Peter Banks", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Chris Squire", "label": "Chris Squire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Jon Anderson", "label": "Jon Anderson", "shape": "dot", "size": 10}]);
+                  nodes = new vis.DataSet([{"group": "Rush", "id": "Rush", "image": "static/Rush.png", "label": "Rush", "shape": "circularImage", "size": 30, "title": "\u003ca href=\u0027https://en.wikipedia.org/wiki/Rush_(band)\u0027\u003e Rush \u003ca\u003e is a band with a wikipedia page."}, {"color": "#97c2fc", "id": "Geddy Lee", "label": "Geddy Lee", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Alex Lifeson", "label": "Alex Lifeson", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Neil Peart", "label": "Neil Peart", "shape": "dot", "size": 10}, {"group": "King Crimson", "id": "King Crimson", "image": "static/KingCrimson.png", "label": "King Crimson", "shape": "circularImage", "size": 30, "title": "\u003ca href=\u0027https://en.wikipedia.org/wiki/King Crimson_(band)\u0027\u003e King Crimson \u003ca\u003e is a band with a wikipedia page."}, {"color": "#97c2fc", "id": "Robert Fripp", "label": "Robert Fripp", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "John Wetton", "label": "John Wetton", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Bill Bruford", "label": "Bill Bruford", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "David Cross", "label": "David Cross", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Jamie Muir", "label": "Jamie Muir", "shape": "dot", "size": 10}, {"group": "Yes", "id": "Yes", "image": "static/Yes.png", "label": "Yes", "shape": "circularImage", "size": 30, "title": "\u003ca href=\u0027https://en.wikipedia.org/wiki/Yes_(band)\u0027\u003e Yes \u003ca\u003e is a band with a wikipedia page."}, {"color": "#97c2fc", "id": "Tony Kaye", "label": "Tony Kaye", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Peter Banks", "label": "Peter Banks", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Chris Squire", "label": "Chris Squire", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Jon Anderson", "label": "Jon Anderson", "shape": "dot", "size": 10}]);
                   edges = new vis.DataSet([{"from": "Rush", "title": "Years active: 1969 - 2015, 2022 - 2030", "to": "Geddy Lee", "width": 3}, {"from": "Rush", "title": "Years active: 1968 - 2015", "to": "Alex Lifeson", "width": 3}, {"from": "Rush", "title": "Years active: 1974 - 2015", "to": "Neil Peart", "width": 3}, {"from": "King Crimson", "title": "Years active: 1969 - 2015", "to": "Robert Fripp", "width": 3}, {"from": "King Crimson", "title": "Years active: 1969 - 2015", "to": "John Wetton", "width": 3}, {"from": "King Crimson", "title": "Years active: 1969 - 2015", "to": "Bill Bruford", "width": 3}, {"from": "King Crimson", "title": "Years active: 1969 - 2015", "to": "David Cross", "width": 3}, {"from": "King Crimson", "title": "Years active: 1969 - 2015", "to": "Jamie Muir", "width": 3}, {"from": "Yes", "title": "Years active: 1969 - 2015", "to": "Bill Bruford", "width": 3}, {"from": "Yes", "title": "Years active: 1969 - 2015", "to": "Tony Kaye", "width": 3}, {"from": "Yes", "title": "Years active: 1969 - 2015", "to": "Peter Banks", "width": 3}, {"from": "Yes", "title": "Years active: 1969 - 2015", "to": "Chris Squire", "width": 3}, {"from": "Yes", "title": "Years active: 1969 - 2015", "to": "Jon Anderson", "width": 3}]);
 
                   nodeColors = {};
@@ -141,6 +160,68 @@
 
                   
 
+                  
+                  // make a custom popup
+                      var popup = document.createElement("div");
+                      popup.className = 'popup';
+                      popupTimeout = null;
+                      popup.addEventListener('mouseover', function () {
+                          console.log(popup)
+                          if (popupTimeout !== null) {
+                              clearTimeout(popupTimeout);
+                              popupTimeout = null;
+                          }
+                      });
+                      popup.addEventListener('mouseout', function () {
+                          if (popupTimeout === null) {
+                              hidePopup();
+                          }
+                      });
+                      container.appendChild(popup);
+
+
+                      // use the popup event to show
+                      network.on("showPopup", function (params) {
+                          showPopup(params);
+                      });
+
+                      // use the hide event to hide it
+                      network.on("hidePopup", function (params) {
+                          hidePopup();
+                      });
+
+                      // hiding the popup through css
+                      function hidePopup() {
+                          popupTimeout = setTimeout(function () { popup.style.display = 'none'; }, 500);
+                      }
+
+                      // showing the popup
+                      function showPopup(nodeId) {
+                          // get the data from the vis.DataSet
+                          var nodeData = nodes.get([nodeId]);
+                          popup.innerHTML = nodeData[0].title;
+
+                          // get the position of the node
+                          var posCanvas = network.getPositions([nodeId])[nodeId];
+
+                          // get the bounding box of the node
+                          var boundingBox = network.getBoundingBox(nodeId);
+
+                          //position tooltip:
+                          posCanvas.x = posCanvas.x + 0.5 * (boundingBox.right - boundingBox.left);
+
+                          // convert coordinates to the DOM space
+                          var posDOM = network.canvasToDOM(posCanvas);
+
+                          // Give it an offset
+                          posDOM.x += 10;
+                          posDOM.y -= 20;
+
+                          // show and place the tooltip.
+                          popup.style.display = 'block';
+                          popup.style.top = posDOM.y + 'px';
+                          popup.style.left = posDOM.x + 'px';
+                      }
                   
 
 

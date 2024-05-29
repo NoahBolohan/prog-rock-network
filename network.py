@@ -12,6 +12,7 @@ for i, (band, members) in enumerate(data.items()):
         band,
         label = band,
         group = band,
+        title = f"<a href='https://en.wikipedia.org/wiki/{band}_(band)'> {band}<a> is a band with a wikipedia page.",
         size = 30,
         shape = "circularImage",
         image = f"static/{band.replace(' ', '')}.png"
