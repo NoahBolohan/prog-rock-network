@@ -2,6 +2,20 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
+def td_specs(td_list,idx):
+    values = [
+        s.get_text().strip() for s in td_list[idx].find_all('li')
+    ] if len(
+        td_list[idx].find_all('li')
+    ) > 0 else td_list[idx].get_text().strip()
+
+    if td_list[idx].has_attr("rowspan"):
+        skip = int(td_list[idx]["rowspan"]) - 1
+    else:
+        skip = 0
+
+    return values, skip
+
 with open("./bs4_input.json") as f:
     data = json.load(f)
 
@@ -9,7 +23,13 @@ bands = {}
 
 # Iterate over BS4 band configs in `bs4_input.json`
 for band, info in data.items():
-    page = requests.get(info["url"])
+
+    bands[band] = {
+        "title" : info["title"],
+        "members" : {}
+    }
+    
+    page = requests.get(info["members_url"])
 
     soup = BeautifulSoup(page.content, "html.parser")
 
@@ -42,60 +62,24 @@ for band, info in data.items():
                     instrument_idx = 2
                     skip_year-=1
                 else:
-                    year_values = [
-                        s.get_text() for s in td_list[2].find_all('li')
-                    ] if len(
-                        td_list[2].find_all('li')
-                    ) > 0 else td_list[2].get_text()
-
-                    # Prepare to propagate year rowspans
-                    if td_list[2].has_attr("rowspan"):
-                        skip_year = int(td_list[2]["rowspan"]) - 1
+                    year_values, skip_year = td_specs(td_list, 2)
                         
 
                 if skip_instrument:
                     skip_instrument-=1
                 else:
-                    instrument_values = [
-                        s.get_text() for s in td_list[instrument_idx].find_all('li')
-                    ] if len(
-                        td_list[instrument_idx].find_all('li')
-                    ) > 0 else td_list[instrument_idx].get_text()
-
-                    # Prepare to propagate instrument rowspans
-                    if td_list[instrument_idx].has_attr("rowspan"):
-                        skip_instrument = int(td_list[instrument_idx]["rowspan"]) - 1
-                        skip_instrument_values = [s.get_text() for s in td_list[instrument_idx].find_all('li')] if len(td_list[instrument_idx].find_all('li')) > 0 else td_list[instrument_idx].get_text()
+                    instrument_values, skip_instrument = td_specs(td_list, instrument_idx)
 
             else:
-                # Normal row, save year and instrument values
-                year_values = [
-                    s.get_text() for s in td_list[2].find_all('li')
-                ] if len(
-                    td_list[2].find_all('li')
-                ) > 0 else td_list[2].get_text()
-
-                instrument_values = [
-                    s.get_text() for s in td_list[instrument_idx].find_all('li')
-                ] if len(
-                    td_list[instrument_idx].find_all('li')
-                ) > 0 else td_list[instrument_idx].get_text()
-
-                # Prepare to propagate year rowspans
-                if td_list[2].has_attr("rowspan"):
-                    skip_year = int(td_list[2]["rowspan"]) - 1
-
-                # Prepare to propagate instrument rowspans
-                if td_list[instrument_idx].has_attr("rowspan"):
-                    skip_instrument = int(td_list[instrument_idx]["rowspan"]) - 1
-                    skip_instrument_values = [s.get_text() for s in td_list[instrument_idx].find_all('li')] if len(td_list[instrument_idx].find_all('li')) > 0 else td_list[instrument_idx].get_text()
+                year_values, skip_year = td_specs(td_list, 2)
+                instrument_values, skip_instrument = td_specs(td_list, instrument_idx)
 
             members_dict[name]["years_active"] = year_values
             members_dict[name]["instruments"] = instrument_values
             members_dict[name]["member type"] = info["spans"][span]
 
 
-    bands[band] = members_dict
+    bands[band]["members"] = members_dict
 
-with open("./input_test.json", "w",  encoding="utf8") as f:
+with open("./input.json", "w",  encoding="utf8") as f:
     json.dump(bands , f, ensure_ascii=False) 

@@ -3,7 +3,7 @@ import json
 
 net = Network()
 
-with open("./input.json") as f:
+with open("./input.json", encoding = 'utf-8') as f:
     data = json.load(f)
 
 for i, (band, info) in enumerate(data.items()):
@@ -26,12 +26,18 @@ for i, (band, info) in enumerate(data.items()):
         )
 
         edge_header = f"<b>{member} ({band})</b>"
-
-        years_active_str = "<b>Years active:</b><br>" + ',<br>'.join(
-            [str(entry) for entry in info['years_active']]
-        )
+        
+        if isinstance(info['years_active'],str):
+            years_active_str = "<b>Years active:</b><br>" + info['years_active']
+        else:
+            years_active_str = "<b>Years active:</b><br>" + ',<br>'.join(info['years_active'])
 
         instruments_str = "<b>Instruments:</b><br>" + ',<br>'.join(info['instruments'])
+
+        if isinstance(info['instruments'],str):
+            instruments_str = "<b>Instruments:</b><br>" + info['instruments']
+        else:
+            instruments_str = "<b>Instruments:</b><br>" + ',<br>'.join(info['instruments'])
 
         title_str = '<br><br>'.join(
             [
