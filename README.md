@@ -6,6 +6,17 @@ The website can be found [here](https://noahbolohan.github.io/prog-rock-network/
 
 Refer to [this fix](https://gist.github.com/yllowcool/1d21a38a02595b88f99547b98d92411f) for parsing HTML is node/edge titles.
 
+## Roadmap
+
+Future network features include:
+
++ Network analytics
++ Album member network
++ Details/descriptions when clicking nodes
++ Search and filtering
++ Band and album recommendations based on network analytics
++ Include info from [here](to_be_included.md)
+
 ## Maintainers
 
 [@NoahBolohan](https://github.com/NoahBolohan).
