@@ -16,6 +16,7 @@ Future network features include:
 + Details/descriptions when clicking nodes
 + Search and filtering
 + Band and album recommendations based on network analytics
++ bs4 parsing for non-tabled band members
 + Include info from [here](to_be_included.md)
 
 ## Maintainers

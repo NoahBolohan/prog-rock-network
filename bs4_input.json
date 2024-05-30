@@ -3,9 +3,7 @@
         "title" : "<a href='https://en.wikipedia.org/wiki/King_Crimson'> King Crimson<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_King_Crimson_members",
         "spans" : {
-            "Members" : "Former",
-            "Touring_musicians" : "Touring",
-            "Session_contributors" : "Session"
+            "Members" : "Former"
         }
     },
     "Yes" : {
@@ -13,8 +11,15 @@
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Yes_band_members",
         "spans" : {
             "Current_Yes_members" : "Current",
-            "Former_Yes_members" : "Former",
-            "Yes_touring_members" : "Touring"
+            "Former_Yes_members" : "Former"
+        }
+    },
+    "Asia" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/Asia_(band)'> Asia<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_Asia_band_members",
+        "spans" : {
+            "Current" : "Current",
+            "Former" : "Former"
         }
     }
 }
