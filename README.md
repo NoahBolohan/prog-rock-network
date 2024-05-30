@@ -10,6 +10,7 @@ Refer to [this fix](https://gist.github.com/yllowcool/1d21a38a02595b88f99547b98d
 
 Future network features include:
 
++ Images for people
 + Network analytics
 + Album member network
 + Details/descriptions when clicking nodes
