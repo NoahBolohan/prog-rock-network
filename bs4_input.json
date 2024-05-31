@@ -2,6 +2,7 @@
     "King Crimson" : {
         "title" : "<a href='https://en.wikipedia.org/wiki/King_Crimson'> King Crimson<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_King_Crimson_members",
+        "members_page" : "y",
         "spans" : {
             "Members" : "Former"
         }
@@ -9,6 +10,7 @@
     "Yes" : {
         "title" : "<a href='https://en.wikipedia.org/wiki/Yes_(band)'> Yes<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Yes_band_members",
+        "members_page" : "y",
         "spans" : {
             "Current_Yes_members" : "Current",
             "Former_Yes_members" : "Former"
@@ -17,6 +19,7 @@
     "Asia" : {
         "title" : "<a href='https://en.wikipedia.org/wiki/Asia_(band)'> Asia<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Asia_band_members",
+        "members_page" : "y",
         "spans" : {
             "Current" : "Current",
             "Former" : "Former"
@@ -25,6 +28,7 @@
     "Emerson, Lake & Palmer" : {
         "title" : "<a href='https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Palmer'> Emerson, Lake & Palmer<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_ELP_band_members",
+        "members_page" : "y",
         "spans" : {
             "Official" : "Current"
         }
@@ -32,6 +36,7 @@
     "Wishbone Ash" : {
         "title" : "<a https://en.wikipedia.org/wiki/Wishbone_Ash'> Wishbone Ash<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Wishbone_Ash_members",
+        "members_page" : "y",
         "spans" : {
             "Current" : "Current",
             "Former" : "Former"
@@ -40,6 +45,7 @@
     "Genesis" : {
         "title" : "<a https://en.wikipedia.org/wiki/Genesis_(band)'> Genesis<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Genesis_band_members",
+        "members_page" : "y",
         "spans" : {
             "Current_members" : "Current",
             "Former_members" : "Former"
@@ -48,6 +54,7 @@
     "Pink Floyd" : {
         "title" : "<a https://en.wikipedia.org/wiki/Pink_Floyd'> Pink Floyd<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Pink_Floyd_band_members",
+        "members_page" : "y",
         "spans" : {
             "Official_members" : "Current"
         }
@@ -55,9 +62,19 @@
     "Camel" : {
         "title" : "<a https://en.wikipedia.org/wiki/Camel_(band)'> Camel<a> is a band with a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/List_of_Camel_band_members",
+        "members_page" : "y",
         "spans" : {
             "Current" : "Current",
             "Former" : "Former"
+        }
+    },
+    "Rush" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/Rush_(band)'> Rush<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Rush_(band)",
+        "members_page" : "n",
+        "spans" : {
+            "Final_line-up" : "Current",
+            "Early_members" : "Former"
         }
     }
 }
