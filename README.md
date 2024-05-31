@@ -6,20 +6,6 @@ The website can be found [here](https://noahbolohan.github.io/prog-rock-network/
 
 Refer to [this fix](https://gist.github.com/yllowcool/1d21a38a02595b88f99547b98d92411f) for parsing HTML is node/edge titles.
 
-## Roadmap
-
-Future network features include:
-
-+ Images for people
-+ Network analytics
-+ Album member network
-+ Details/descriptions when clicking nodes
-+ Search and filtering
-+ Band and album recommendations based on network analytics
-+ Finish converting `input_old.json` to `bs4_input.json`
-+ (Dream Theater, Porcupine Tree) Parsing doesn't diff. between current and former because of Wiki page style
-+ Include info from [here](to_be_included.md)
-
 ## Maintainers
 
 [@NoahBolohan](https://github.com/NoahBolohan).
