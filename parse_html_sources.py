@@ -135,7 +135,7 @@ def parse_main_page(soup, info):
                     instrument_values = details.split(', ')
 
                 for name in names:
-                    members_dict[name] = {
+                    members_dict[name.strip()] = {
                         "years_active" : year_values,
                         "instruments" : instrument_values,
                         "member type" : info["spans"][span]
@@ -182,4 +182,4 @@ for band, info in data.items():
         bands[band]["members"] = parse_main_page(soup, info)
 
 with open("./input.json", "w",  encoding="utf8") as f:
-    json.dump(bands , f, ensure_ascii=False) 
+    json.dump(bands , f, ensure_ascii=False)

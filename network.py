@@ -1,7 +1,10 @@
 from pyvis.network import Network
 import json
 
-net = Network()
+net = Network(
+    height = 900,
+    width = "100%"
+)
 
 with open("./input.json", encoding = 'utf-8') as f:
     data = json.load(f)
