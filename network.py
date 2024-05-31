@@ -35,22 +35,27 @@ for i, (band, info) in enumerate(data.items()):
         )
 
         edge_header = f"<b>{member} ({band})</b>"
+
+        member_type_str = info["member type"] + '<br>'
         
-        if isinstance(info['years_active'],str):
-            years_active_str = "<b>Years active:</b><br>" + info['years_active']
+        if isinstance(info["years_active"],str):
+            years_active_str = "<b>Years active:</b><br>" + info["years_active"]
         else:
-            years_active_str = "<b>Years active:</b><br>" + ',<br>'.join(info['years_active'])
+            years_active_str = "<b>Years active:</b><br>" + ',<br>'.join(info["years_active"])
 
-        instruments_str = "<b>Instruments:</b><br>" + ',<br>'.join(info['instruments'])
+        years_active_str += "<br>"
 
-        if isinstance(info['instruments'],str):
-            instruments_str = "<b>Instruments:</b><br>" + info['instruments']
+        instruments_str = "<b>Instruments:</b><br>" + ",<br>".join(info["instruments"])
+
+        if isinstance(info["instruments"],str):
+            instruments_str = "<b>Instruments:</b><br>" + info["instruments"]
         else:
-            instruments_str = "<b>Instruments:</b><br>" + ',<br>'.join(info['instruments'])
+            instruments_str = "<b>Instruments:</b><br>" + ',<br>'.join(info["instruments"])
 
-        title_str = '<br><br>'.join(
+        title_str = "<br>".join(
             [
                 edge_header,
+                member_type_str,
                 years_active_str,
                 instruments_str
             ]
@@ -62,6 +67,10 @@ for i, (band, info) in enumerate(data.items()):
             width = 3,
             title = title_str
         )
+    
+for edge in net.get_edges():
+    if edge["title"].split("<br>")[1] != "Current":
+        edge["dashes"] = True
 
 net.show(
     r"index.html",
