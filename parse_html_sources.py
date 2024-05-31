@@ -2,38 +2,26 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
-from datetime import datetime
+import dateutil.parser
 
 def split_date_string(date_string):
     if len(ds_split := date_string.split('–')):
-        try:
-            start = datetime.strptime(ds_split[0], '%B %Y')
-        except ValueError:
-            start = datetime.strptime(ds_split[0], '%Y')
-
-        try:
-            end = datetime.strptime(ds_split[1], '%B %Y')
-        except ValueError:
-            end = datetime.strptime(ds_split[1], '%Y')
+        start = dateutil.parser.parse(ds_split[0].split(';')[0])
+        end = dateutil.parser.parse(ds_split[1].split(';')[0])
     else:
-        try:
-            start = datetime.strptime(date_string, '%B %Y')
-        except ValueError:
-            start = datetime.strptime(date_string, '%Y')
-
+        start = dateutil.parser.parse(ds_split[0].split(';')[0])
         end = start
     
     return start, end
 
 def range_in_range(a, b, x, y):
-
     start_a = min(a,b)
     end_a = max(a,b)
 
     start_c = min(x,y)
     end_c = max(x,y)
 
-    return (a<=x and y<b) or (a<x and y<=b) or (a<x and y<b)
+    return (start_a<=start_c and end_c<end_a) or (start_a<start_c and end_c<=end_a) or (start_a<start_c and end_c<end_a)
     
 def td_specs(td_list,idx):
     values = [
@@ -148,7 +136,7 @@ for band, info in data.items():
     soup = BeautifulSoup(page.content, "html.parser")
 
     if info["members_page"] == 'y':
-        # bands[band]["members"] = parse_member_page(soup, info)
+        bands[band]["members"] = parse_member_page(soup, info)
         continue
     else:
         bands[band]["members"] = parse_main_page(soup, info)
