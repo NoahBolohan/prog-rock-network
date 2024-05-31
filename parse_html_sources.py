@@ -3,17 +3,27 @@ from bs4 import BeautifulSoup
 import json
 import re
 import dateutil.parser
+from datetime import datetime
 from time import sleep
 
+from_file = True
+
 def split_date_string(date_string):
-    if len(ds_split := date_string.split('-')) > 1:
-        start = dateutil.parser.parse(ds_split[0].split(';')[0])
-        end = dateutil.parser.parse(ds_split[1].split(';')[0])
-    else:
-        start = dateutil.parser.parse(ds_split[0].split(';')[0])
+    try:
+        if len(ds_split := date_string.split('-')) > 1:
+            start = dateutil.parser.parse(ds_split[0].split(';')[0])
+            if ds_split[1].split(';')[0] == "present":
+                end = datetime.today()
+            else:
+                end = dateutil.parser.parse(ds_split[1].split(';')[0])
+        else:
+            start = dateutil.parser.parse(ds_split[0].split(';')[0])
+            end = start
+        return start, end
+    except:
+        start = dateutil.parser.parse(re.search(r"[0-9]{4}$", date_string)[0])
         end = start
-    
-    return start, end
+        return start, end
 
 def range_in_range(a, b, x, y):
     start_a = min(a,b)
@@ -149,20 +159,27 @@ for band, info in data.items():
         "members" : {}
     }
     
-    page = requests.get(info["members_url"])
+    if from_file:
+        with open(rf"C:\Programming\Python\HTML_for_prog-rock-network\{band}.html", encoding='utf-8') as fp:
+            soup = BeautifulSoup(fp, 'html.parser')
+    else:
+        page = requests.get(info["members_url"])
 
-    soup = BeautifulSoup(page.content, "html.parser")
+        soup = BeautifulSoup(page.content, "html.parser")
+
+        with open(rf"C:\Programming\Python\HTML_for_prog-rock-network\{band}.html", "w", encoding='utf-8') as file:
+            file.write(str(soup))
+        
+        sleep(1)
 
     for a in soup.find_all(string=re.compile('–')):
         a.replace_with(a.replace('–', '-'))
 
     if info["members_page"] == 'y':
-        # bands[band]["members"] = parse_member_page(soup, info)
+        bands[band]["members"] = parse_member_page(soup, info)
         continue
     else:
         bands[band]["members"] = parse_main_page(soup, info)
-
-    sleep(1)
 
 with open("./input.json", "w",  encoding="utf8") as f:
     json.dump(bands , f, ensure_ascii=False) 

@@ -14,7 +14,7 @@ for i, (band, info) in enumerate(data.items()):
         group = band,
         # title = info["title"],
         shape = "circularImage",
-        image = f"static/{band.replace(' ', '').replace('.', '').replace('/', '')}.png",
+        image = f"static/{band.replace(' ', '').replace('.', '')}.png",
         size = 30
     )
 

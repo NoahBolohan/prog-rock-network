@@ -111,7 +111,7 @@
             "Personnel" : "Current"
         }
     },
-    "Moraz/Bruford" : {
+    "Moraz Bruford" : {
         "title" : "<a href='https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums'> Moraz/Bruford<a> is a band without a wikipedia page.",
         "members_url" : "https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums",
         "members_page" : "n",
@@ -129,7 +129,106 @@
         "spans" : {
             "Personnel" : "Current"
         },
-        
         "years_active" : "1988-1991"
+    },
+    "Earthworks" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Earthworks_(band)'> Earthworks<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Earthworks_(band)",
+        "members_page" : "n",
+        "spans" : {
+            "Full_band_members" : "Current"
+        }
+    },
+    "If Summer Had Its Ghosts" : {
+        "title" : "<a https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts'> If Summer Had Its Ghosts<a> is an album with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts",
+        "members_page" : "n",
+        "spans" : {
+            "Personnel" : "Current"
+        },
+        "years_active" : "1977"
+    },
+    "Mogul Trash" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Mogul_Thrash'> Mogul Trash<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Mogul_Thrash_(album)",
+        "members_page" : "n",
+        "n_ul" : 2,
+        "spans" : {
+            "Personnel" : "Current"
+        },
+        "years_active" : "1971"
+    },
+    "Family" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Family_(band)'> Family<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Family_(band)",
+        "members_page" : "n",
+        "n_ul" : 2,
+        "spans" : {
+            "Members" : "Current"
+        }
+    },
+    "Roxy Music" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Roxy_Music'> Roxy Music<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_Roxy_Music_members",
+        "members_page" : "y",
+        "spans" : {
+            "Current_line-up" : "Current",
+            "Former_members" : "Former"
+        }
+    },
+    "Qango" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Qango_(band)'> Qango<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Qango_(band)",
+        "members_page" : "n",
+        "spans" : {
+            "Personnel" : "Current"
+        },
+        "years_active" : "1999-2000"
+    },
+    "Squackett" : {
+        "title" : "<a https://en.wikipedia.org/wiki/A_Life_Within_a_Day'> Squackett<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/A_Life_Within_a_Day",
+        "members_page" : "n",
+        "n_ul" : 2,
+        "spans" : {
+            "Personnel" : "Current"
+        },
+        "years_active" : "2012"
+    },
+    "Liquid Tension Experiment" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Liquid_Tension_Experiment'> Liquid Tension Experiment<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Liquid_Tension_Experiment",
+        "members_page" : "n",
+        "spans" : {
+            "Liquid_Tension_Experiment" : "Current"
+        },
+        "years_active" : ["1997 - 1999", "2008", "2020 - present"]
+    },
+    "Stick Men" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Stick_Men_(prog_band)'> Stick Men<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Stick_Men_(prog_band)",
+        "members_page" : "n",
+        "spans" : {
+            "Current" : "Current",
+            "Former" : "Former"
+        }
+    },
+    "Dream Theater" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Dream_Theater'> Dream Theater<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Dream_Theater",
+        "members_page" : "n",
+        "n_ul" : 2,
+        "spans" : {
+            "Band_members" : "Current"
+        }
+    },
+    "Porcupine Tree" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Porcupine_Tree'> Porcupine Tree<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Porcupine_Tree",
+        "members_page" : "n",
+        "n_ul" : 2,
+        "spans" : {
+            "Band_members" : "Current"
+        }
     }
 }

@@ -16,7 +16,8 @@ Future network features include:
 + Details/descriptions when clicking nodes
 + Search and filtering
 + Band and album recommendations based on network analytics
-+ bs4 parsing for non-tabled band members
++ Finish converting `input_old.json` to `bs4_input.json`
++ (Dream Theater, Porcupine Tree) Parsing doesn't diff. between current and former because of Wiki page style
 + Include info from [here](to_be_included.md)
 
 ## Maintainers
