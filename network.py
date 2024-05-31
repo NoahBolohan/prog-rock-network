@@ -1,5 +1,11 @@
 from pyvis.network import Network
 import json
+from parse_html_sources import parse_html
+
+parse_html(
+    from_file = True,
+    local_html_dir = r"C:\Programming\Python\HTML_for_prog-rock-network"
+)
 
 net = Network(
     height = 900,

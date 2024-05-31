@@ -6,8 +6,6 @@ import dateutil.parser
 from datetime import datetime
 from time import sleep
 
-from_file = True
-
 def split_date_string(date_string):
     try:
         if len(ds_split := date_string.split('-')) > 1:
@@ -146,40 +144,50 @@ def parse_main_page(soup, info):
             
     return members_dict
 
-with open("./bs4_input.json") as f:
-    data = json.load(f)
+def parse_html(
+        from_file = False,
+        member_pages = True,
+        non_member_pages = True,
+        bs4_input_fp = "./bs4_input.json",
+        bs4_output_fp = "./input.json",
+        local_html_dir = ""
+):
+    with open(bs4_input_fp) as f:
+        data = json.load(f)
 
-bands = {}
+    bands = {}
 
-# Iterate over BS4 band configs in `bs4_input.json`
-for band, info in data.items():
+    # Iterate over BS4 band configs in `bs4_input.json`
+    for band, info in data.items():
 
-    bands[band] = {
-        "title" : info["title"],
-        "members" : {}
-    }
-    
-    if from_file:
-        with open(rf"C:\Programming\Python\HTML_for_prog-rock-network\{band}.html", encoding='utf-8') as fp:
-            soup = BeautifulSoup(fp, 'html.parser')
-    else:
-        page = requests.get(info["members_url"])
-
-        soup = BeautifulSoup(page.content, "html.parser")
-
-        with open(rf"C:\Programming\Python\HTML_for_prog-rock-network\{band}.html", "w", encoding='utf-8') as file:
-            file.write(str(soup))
+        if (info["members_page"] == 'y' and member_pages) or (info["members_page"] == 'n' and non_member_pages):
+            bands[band] = {
+                "title" : info["title"],
+                "members" : {}
+            }
         
-        sleep(1)
+        if from_file:
+            with open(rf"{local_html_dir}\{band}.html", encoding='utf-8') as fp:
+                soup = BeautifulSoup(fp, 'html.parser')
+        else:
+            page = requests.get(info["members_url"])
 
-    for a in soup.find_all(string=re.compile('–')):
-        a.replace_with(a.replace('–', '-'))
+            soup = BeautifulSoup(page.content, "html.parser")
 
-    if info["members_page"] == 'y':
-        bands[band]["members"] = parse_member_page(soup, info)
-        continue
-    else:
-        bands[band]["members"] = parse_main_page(soup, info)
+            with open(rf"{local_html_dir}\{band}.html", "w", encoding='utf-8') as file:
+                file.write(str(soup))
+            
+            sleep(1)
 
-with open("./input.json", "w",  encoding="utf8") as f:
-    json.dump(bands , f, ensure_ascii=False)
+        for a in soup.find_all(string=re.compile('–')):
+            a.replace_with(a.replace('–', '-'))
+
+        if info["members_page"] == 'y':
+            if member_pages:
+                bands[band]["members"] = parse_member_page(soup, info)
+        else:
+            if non_member_pages:
+                bands[band]["members"] = parse_main_page(soup, info)
+
+    with open(bs4_output_fp, "w",  encoding="utf8") as f:
+        json.dump(bands , f, ensure_ascii=False)
