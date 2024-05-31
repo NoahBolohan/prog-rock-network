@@ -21,5 +21,43 @@
             "Current" : "Current",
             "Former" : "Former"
         }
+    },
+    "Emerson, Lake & Palmer" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Palmer'> Emerson, Lake & Palmer<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_ELP_band_members",
+        "spans" : {
+            "Official" : "Current"
+        }
+    },
+    "Wishbone Ash" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Wishbone_Ash'> Wishbone Ash<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_Wishbone_Ash_members",
+        "spans" : {
+            "Current" : "Current",
+            "Former" : "Former"
+        }
+    },
+    "Genesis" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Genesis_(band)'> Genesis<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_Genesis_band_members",
+        "spans" : {
+            "Current_members" : "Current",
+            "Former_members" : "Former"
+        }
+    },
+    "Pink Floyd" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Pink_Floyd'> Pink Floyd<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_Pink_Floyd_band_members",
+        "spans" : {
+            "Official_members" : "Current"
+        }
+    },
+    "Camel" : {
+        "title" : "<a https://en.wikipedia.org/wiki/Camel_(band)'> Camel<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/List_of_Camel_band_members",
+        "spans" : {
+            "Current" : "Current",
+            "Former" : "Former"
+        }
     }
 }
