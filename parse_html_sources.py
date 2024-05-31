@@ -3,9 +3,10 @@ from bs4 import BeautifulSoup
 import json
 import re
 import dateutil.parser
+from time import sleep
 
 def split_date_string(date_string):
-    if len(ds_split := date_string.split('–')):
+    if len(ds_split := date_string.split('-')) > 1:
         start = dateutil.parser.parse(ds_split[0].split(';')[0])
         end = dateutil.parser.parse(ds_split[1].split(';')[0])
     else:
@@ -92,29 +93,46 @@ def parse_main_page(soup, info):
     for span in info["spans"].keys():
 
         from_members = soup.select(f"span#{span}")[0]
-        member_list = from_members.find_next("ul").find_all('li')
+        next_ul = from_members.find_next("ul")
 
-        for member in member_list:
-            name = member.get_text().split(' – ')[0]
-            details = re.sub(r"[\[].*?[\]]", "", '–'.join(member.get_text().split(' – ')[1:]))
+        if "n_ul" in info.keys():
+            n_ul = info["n_ul"]
+        else:
+            n_ul = 1
+        
+        while n_ul > 0:
+            member_list = next_ul.find_all('li')
 
-            year_values = [s.strip("()").split(',') for s in re.findall(r"\(.*?\)", details)]
-            year_values = [s.strip() for list_of_s in year_values for s in list_of_s if s.strip() != '']
+            for member in member_list:
+                names = member.get_text().split('-')[0].split(', ')
+                details = re.sub(r"[\[].*?[\]]", "", '-'.join(member.get_text().split('-')[1:]).strip())
 
-            for year_value_checked in year_values:
-                for year_value_against in year_values:
-                    if range_in_range(*split_date_string(year_value_against), *split_date_string(year_value_checked)):
-                        year_values.remove(year_value_checked)
+                if "years_active" in info.keys():
+                    year_values = info["years_active"]
+                else:
+                    year_values = [s.strip("()").split(',') for s in re.findall(r"\(.*?\)", details)]
+                    year_values = [s.strip() for list_of_s in year_values for s in list_of_s if s.strip() != '']
 
+                    for year_value_checked in year_values:
+                        for year_value_against in year_values:
+                            if range_in_range(*split_date_string(year_value_against), *split_date_string(year_value_checked)):
+                                year_values.remove(year_value_checked)
 
-            instrument_values = [s.split(', ') for s in re.findall(r'(.*?)\(.*?\)', details)]
-            instrument_values = [s.strip() for list_of_s in instrument_values for s in list_of_s if s.strip() != '']
+                if '(' in details or ')' in details:
+                    instrument_values = [s.split(', ') for s in re.findall(r'(.*?)\(.*?\)', details)]
+                    instrument_values = [s.strip() for list_of_s in instrument_values for s in list_of_s if s.strip() != '']
+                else:
+                    instrument_values = details.split(', ')
 
-            members_dict[name] = {
-                "years_active" : year_values,
-                "instruments" : instrument_values,
-                "member type" : info["spans"][span]
-            }
+                for name in names:
+                    members_dict[name] = {
+                        "years_active" : year_values,
+                        "instruments" : instrument_values,
+                        "member type" : info["spans"][span]
+                    }
+
+            n_ul -= 1
+            next_ul = next_ul.find_next("ul")
             
     return members_dict
 
@@ -135,11 +153,16 @@ for band, info in data.items():
 
     soup = BeautifulSoup(page.content, "html.parser")
 
+    for a in soup.find_all(string=re.compile('–')):
+        a.replace_with(a.replace('–', '-'))
+
     if info["members_page"] == 'y':
-        bands[band]["members"] = parse_member_page(soup, info)
+        # bands[band]["members"] = parse_member_page(soup, info)
         continue
     else:
         bands[band]["members"] = parse_main_page(soup, info)
+
+    sleep(1)
 
 with open("./input.json", "w",  encoding="utf8") as f:
     json.dump(bands , f, ensure_ascii=False) 

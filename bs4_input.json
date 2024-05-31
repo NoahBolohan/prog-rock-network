@@ -76,5 +76,60 @@
             "Final_line-up" : "Current",
             "Early_members" : "Former"
         }
+    },
+    "Giles, Giles and Fripp" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp'> Giles, Giles and Fripp<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp",
+        "members_page" : "n",
+        "spans" : {
+            "Members" : "Current"
+        }
+    },
+    "The League of Gentlemen" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)'> The League of Gentlemen<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)",
+        "members_page" : "n",
+        "spans" : {
+            "Album_personnel" : "Current"
+        },
+        "years_active" : "1980"
+    },
+    "McDonald and Giles" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/McDonald_and_Giles'> McDonald and Giles<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/McDonald_and_Giles",
+        "members_page" : "n",
+        "spans" : {
+            "Musicians" : "Current"
+        },
+        "years_active" : "1970"
+    },
+    "U.K." : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/U.K._(band)'> U.K.<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/U.K._(band)",
+        "members_page" : "n",
+        "spans" : {
+            "Personnel" : "Current"
+        }
+    },
+    "Moraz/Bruford" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums'> Moraz/Bruford<a> is a band without a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums",
+        "members_page" : "n",
+        "spans" : {
+            "Personnel" : "Current"
+        },
+        
+        "years_active" : "1983"
+    },
+    "Anderson Bruford Wakeman Howe" : {
+        "title" : "<a href='https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe'> Anderson Bruford Wakeman Howe<a> is a band with a wikipedia page.",
+        "members_url" : "https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe",
+        "members_page" : "n",
+        "n_ul" : 2,
+        "spans" : {
+            "Personnel" : "Current"
+        },
+        
+        "years_active" : "1988-1991"
     }
 }
