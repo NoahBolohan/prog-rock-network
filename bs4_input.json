@@ -1,1 +1,345 @@
-{"King Crimson": {"title": "<a href='https://en.wikipedia.org/wiki/King_Crimson'> King Crimson<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_King_Crimson_members", "members_page": "y", "tags": {"Members": {"tag": "span", "new_label": "Former"}}}, "Yes": {"title": "<a href='https://en.wikipedia.org/wiki/Yes_(band)'> Yes<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Yes_band_members", "members_page": "y", "tags": {"Current_Yes_members": {"tag": "span", "new_label": "Current"}, "Former_Yes_members": {"tag": "span", "new_label": "Former"}}}, "Asia": {"title": "<a href='https://en.wikipedia.org/wiki/Asia_(band)'> Asia<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Asia_band_members", "members_page": "y", "tags": {"Current": {"tag": "span", "new_label": "Current"}, "Former": {"tag": "span", "new_label": "Former"}}}, "Emerson, Lake & Palmer": {"title": "<a href='https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Palmer'> Emerson, Lake & Palmer<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_ELP_band_members", "members_page": "y", "tags": {"Official": {"tag": "span", "new_label": "Current"}}}, "Wishbone Ash": {"title": "<a https://en.wikipedia.org/wiki/Wishbone_Ash'> Wishbone Ash<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Wishbone_Ash_members", "members_page": "y", "tags": {"Current": {"tag": "span", "new_label": "Current"}, "Former": {"tag": "span", "new_label": "Former"}}}, "Genesis": {"title": "<a https://en.wikipedia.org/wiki/Genesis_(band)'> Genesis<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Genesis_band_members", "members_page": "y", "tags": {"Current_members": {"tag": "span", "new_label": "Current"}, "Former_members": {"tag": "span", "new_label": "Former"}}}, "Pink Floyd": {"title": "<a https://en.wikipedia.org/wiki/Pink_Floyd'> Pink Floyd<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Pink_Floyd_band_members", "members_page": "y", "tags": {"Official_members": {"tag": "span", "new_label": "Current"}}}, "Camel": {"title": "<a https://en.wikipedia.org/wiki/Camel_(band)'> Camel<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Camel_band_members", "members_page": "y", "tags": {"Current": {"tag": "span", "new_label": "Current"}, "Former": {"tag": "span", "new_label": "Former"}}}, "Rush": {"title": "<a href='https://en.wikipedia.org/wiki/Rush_(band)'> Rush<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Rush_(band)", "members_page": "n", "tags": {"Final_line-up": {"tag": "span", "new_label": "Current"}, "Early_members": {"tag": "span", "new_label": "Former"}}}, "Giles, Giles and Fripp": {"title": "<a href='https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp'> Giles, Giles and Fripp<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp", "members_page": "n", "tags": {"Members": {"tag": "span", "new_label": "Current"}}}, "The League of Gentlemen": {"title": "<a href='https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)'> The League of Gentlemen<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)", "members_page": "n", "years_active": "1980", "tags": {"Album_personnel": {"tag": "span", "new_label": "Current"}}}, "McDonald and Giles": {"title": "<a href='https://en.wikipedia.org/wiki/McDonald_and_Giles'> McDonald and Giles<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/McDonald_and_Giles", "members_page": "n", "years_active": "1970", "tags": {"Musicians": {"tag": "span", "new_label": "Current"}}}, "U.K.": {"title": "<a href='https://en.wikipedia.org/wiki/U.K._(band)'> U.K.<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/U.K._(band)", "members_page": "n", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Moraz Bruford": {"title": "<a href='https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums'> Moraz/Bruford<a> is a band without a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums", "members_page": "n", "years_active": "1983", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Anderson Bruford Wakeman Howe": {"title": "<a href='https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe'> Anderson Bruford Wakeman Howe<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe", "members_page": "n", "n_ul": 2, "years_active": "1988-1991", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Earthworks": {"title": "<a https://en.wikipedia.org/wiki/Earthworks_(band)'> Earthworks<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Earthworks_(band)", "members_page": "n", "tags": {"Full_band_members": {"tag": "span", "new_label": "Current"}}}, "If Summer Had Its Ghosts": {"title": "<a https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts'> If Summer Had Its Ghosts<a> is an album with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts", "members_page": "n", "years_active": "1977", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Mogul Trash": {"title": "<a https://en.wikipedia.org/wiki/Mogul_Thrash'> Mogul Trash<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Mogul_Thrash_(album)", "members_page": "n", "n_ul": 2, "years_active": "1971", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Family": {"title": "<a https://en.wikipedia.org/wiki/Family_(band)'> Family<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Family_(band)", "members_page": "n", "n_ul": 2, "tags": {"Members": {"tag": "span", "new_label": "Current"}}}, "Roxy Music": {"title": "<a https://en.wikipedia.org/wiki/Roxy_Music'> Roxy Music<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/List_of_Roxy_Music_members", "members_page": "y", "tags": {"Current_line-up": {"tag": "span", "new_label": "Current"}, "Former_members": {"tag": "span", "new_label": "Former"}}}, "Qango": {"title": "<a https://en.wikipedia.org/wiki/Qango_(band)'> Qango<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Qango_(band)", "members_page": "n", "years_active": "1999-2000", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Squackett": {"title": "<a https://en.wikipedia.org/wiki/A_Life_Within_a_Day'> Squackett<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/A_Life_Within_a_Day", "members_page": "n", "n_ul": 2, "years_active": "2012", "tags": {"Personnel": {"tag": "span", "new_label": "Current"}}}, "Liquid Tension Experiment": {"title": "<a https://en.wikipedia.org/wiki/Liquid_Tension_Experiment'> Liquid Tension Experiment<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Liquid_Tension_Experiment", "members_page": "n", "years_active": ["1997 - 1999", "2008", "2020 - present"], "tags": {"Liquid_Tension_Experiment": {"tag": "span", "new_label": "Current"}}}, "Stick Men": {"title": "<a https://en.wikipedia.org/wiki/Stick_Men_(prog_band)'> Stick Men<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Stick_Men_(prog_band)", "members_page": "n", "tags": {"Current": {"tag": "span", "new_label": "Current"}, "Former": {"tag": "span", "new_label": "Former"}}}, "Dream Theater": {"title": "<a https://en.wikipedia.org/wiki/Dream_Theater'> Dream Theater<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Dream_Theater", "members_page": "n", "tags": {"Current": {"tag": "b", "new_label": "Current"}, "Former": {"tag": "b", "new_label": "Former"}}}, "Porcupine Tree": {"title": "<a https://en.wikipedia.org/wiki/Porcupine_Tree'> Porcupine Tree<a> is a band with a wikipedia page.", "members_url": "https://en.wikipedia.org/wiki/Porcupine_Tree", "members_page": "n", "tags": {"Members": {"tag": "b", "new_label": "Current"}, "Former members": {"tag": "b", "new_label": "Former"}}}}
+{
+    "King Crimson": {
+        "title": "<a href='https://en.wikipedia.org/wiki/King_Crimson'> King Crimson<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_King_Crimson_members",
+        "members_page": "y",
+        "tags": {
+            "Members": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Yes": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Yes_(band)'> Yes<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Yes_band_members",
+        "members_page": "y",
+        "tags": {
+            "Current_Yes_members": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former_Yes_members": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Asia": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Asia_(band)'> Asia<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Asia_band_members",
+        "members_page": "y",
+        "tags": {
+            "Current": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Emerson, Lake & Palmer": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Emerson,_Lake_%26_Palmer'> Emerson, Lake & Palmer<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_ELP_band_members",
+        "members_page": "y",
+        "tags": {
+            "Official": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Wishbone Ash": {
+        "title": "<a https://en.wikipedia.org/wiki/Wishbone_Ash'> Wishbone Ash<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Wishbone_Ash_members",
+        "members_page": "y",
+        "tags": {
+            "Current": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Genesis": {
+        "title": "<a https://en.wikipedia.org/wiki/Genesis_(band)'> Genesis<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Genesis_band_members",
+        "members_page": "y",
+        "tags": {
+            "Current_members": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former_members": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Pink Floyd": {
+        "title": "<a https://en.wikipedia.org/wiki/Pink_Floyd'> Pink Floyd<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Pink_Floyd_band_members",
+        "members_page": "y",
+        "tags": {
+            "Official_members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Camel": {
+        "title": "<a https://en.wikipedia.org/wiki/Camel_(band)'> Camel<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Camel_band_members",
+        "members_page": "y",
+        "tags": {
+            "Current": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Rush": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Rush_(band)'> Rush<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Rush_(band)",
+        "members_page": "n",
+        "tags": {
+            "Final_line-up": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Early_members": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Giles, Giles and Fripp": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp'> Giles, Giles and Fripp<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Giles,_Giles_and_Fripp",
+        "members_page": "n",
+        "tags": {
+            "Members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "The League of Gentlemen": {
+        "title": "<a href='https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)'> The League of Gentlemen<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/The_League_of_Gentlemen_(band)",
+        "members_page": "n",
+        "years_active": "1980",
+        "tags": {
+            "Album_personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "McDonald and Giles": {
+        "title": "<a href='https://en.wikipedia.org/wiki/McDonald_and_Giles'> McDonald and Giles<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/McDonald_and_Giles",
+        "members_page": "n",
+        "years_active": "1970",
+        "tags": {
+            "Musicians": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "U.K.": {
+        "title": "<a href='https://en.wikipedia.org/wiki/U.K._(band)'> U.K.<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/U.K._(band)",
+        "members_page": "n",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Moraz Bruford": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums'> Moraz/Bruford<a> is a band without a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Music_for_Piano_and_Drums",
+        "members_page": "n",
+        "years_active": "1983",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Anderson Bruford Wakeman Howe": {
+        "title": "<a href='https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe'> Anderson Bruford Wakeman Howe<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Anderson_Bruford_Wakeman_Howe",
+        "members_page": "n",
+        "n_ul": 2,
+        "years_active": "1988-1991",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Earthworks": {
+        "title": "<a https://en.wikipedia.org/wiki/Earthworks_(band)'> Earthworks<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Earthworks_(band)",
+        "members_page": "n",
+        "tags": {
+            "Full_band_members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "If Summer Had Its Ghosts": {
+        "title": "<a https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts'> If Summer Had Its Ghosts<a> is an album with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/If_Summer_Had_Its_Ghosts",
+        "members_page": "n",
+        "years_active": "1977",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Mogul Trash": {
+        "title": "<a https://en.wikipedia.org/wiki/Mogul_Thrash'> Mogul Trash<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Mogul_Thrash_(album)",
+        "members_page": "n",
+        "n_ul": 2,
+        "years_active": "1971",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Family": {
+        "title": "<a https://en.wikipedia.org/wiki/Family_(band)'> Family<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Family_(band)",
+        "members_page": "n",
+        "n_ul": 2,
+        "tags": {
+            "Members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Roxy Music": {
+        "title": "<a https://en.wikipedia.org/wiki/Roxy_Music'> Roxy Music<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Roxy_Music_members",
+        "members_page": "y",
+        "tags": {
+            "Current_line-up": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former_members": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Qango": {
+        "title": "<a https://en.wikipedia.org/wiki/Qango_(band)'> Qango<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Qango_(band)",
+        "members_page": "n",
+        "years_active": "1999-2000",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Squackett": {
+        "title": "<a https://en.wikipedia.org/wiki/A_Life_Within_a_Day'> Squackett<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/A_Life_Within_a_Day",
+        "members_page": "n",
+        "n_ul": 2,
+        "years_active": "2012",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Liquid Tension Experiment": {
+        "title": "<a https://en.wikipedia.org/wiki/Liquid_Tension_Experiment'> Liquid Tension Experiment<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Liquid_Tension_Experiment",
+        "members_page": "n",
+        "years_active": [
+            "1997 - 1999",
+            "2008",
+            "2020 - present"
+        ],
+        "tags": {
+            "Liquid_Tension_Experiment": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Stick Men": {
+        "title": "<a https://en.wikipedia.org/wiki/Stick_Men_(prog_band)'> Stick Men<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Stick_Men_(prog_band)",
+        "members_page": "n",
+        "tags": {
+            "Current": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Dream Theater": {
+        "title": "<a https://en.wikipedia.org/wiki/Dream_Theater'> Dream Theater<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Dream_Theater",
+        "members_page": "n",
+        "tags": {
+            "Current": {
+                "tag": "b",
+                "new_label": "Current"
+            },
+            "Former": {
+                "tag": "b",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Porcupine Tree": {
+        "title": "<a https://en.wikipedia.org/wiki/Porcupine_Tree'> Porcupine Tree<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Porcupine_Tree",
+        "members_page": "n",
+        "tags": {
+            "Members": {
+                "tag": "b",
+                "new_label": "Current"
+            },
+            "Former members": {
+                "tag": "b",
+                "new_label": "Former"
+            }
+        }
+    }
+}

@@ -8,9 +8,13 @@ parse_html(
 )
 
 net = Network(
-    height = 900,
-    width = "100%"
+    height = "750px",
+    width = "100%",
+   filter_menu=True,
+   select_menu=True
 )
+
+net.show_buttons(filter_=["layout", "interaction"])
 
 with open("./input.json", encoding = 'utf-8') as f:
     data = json.load(f)
