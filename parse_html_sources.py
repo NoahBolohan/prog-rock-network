@@ -1,8 +1,9 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 import re
 import dateutil.parser
+
+from bs4 import BeautifulSoup
 from datetime import datetime
 from time import sleep
 
@@ -50,9 +51,9 @@ def parse_member_page(soup, info):
     members_dict = {}
     
     # Iterate over member type
-    for span in info["spans"].keys():
+    for tag, tag_info in info["tags"].items():
 
-        from_members = soup.select(f"span#{span}")[0]
+        from_members = soup.select(f"{tag_info["tag"]}#{tag}")[0]
 
         member_table = from_members.find_next("table", class_="wikitable")
 
@@ -90,7 +91,7 @@ def parse_member_page(soup, info):
 
             members_dict[name]["years_active"] = year_values
             members_dict[name]["instruments"] = instrument_values
-            members_dict[name]["member type"] = info["spans"][span]
+            members_dict[name]["member type"] = tag_info["new_label"]
 
     return members_dict
 
@@ -98,9 +99,13 @@ def parse_main_page(soup, info):
     members_dict = {}
 
     # Iterate over member type
-    for span in info["spans"].keys():
+    for tag, tag_info in info["tags"].items():
 
-        from_members = soup.select(f"span#{span}")[0]
+        if tag_info["tag"] == 'b':
+            from_members = soup.findAll(tag_info["tag"],string=tag)[0]
+        elif tag_info["tag"] == "span":
+            from_members = soup.select(f"{tag_info["tag"]}#{tag}")[0]
+
         next_ul = from_members.find_next("ul")
 
         if "n_ul" in info.keys():
@@ -136,7 +141,7 @@ def parse_main_page(soup, info):
                     members_dict[name.strip()] = {
                         "years_active" : year_values,
                         "instruments" : instrument_values,
-                        "member type" : info["spans"][span]
+                        "member type" : tag_info["new_label"]
                     }
 
             n_ul -= 1
