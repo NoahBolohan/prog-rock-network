@@ -8,13 +8,15 @@ parse_html(
 )
 
 net = Network(
-    height = "750px",
+    height = "900px",
     width = "100%",
-   filter_menu=True,
-   select_menu=True
+#    filter_menu=True,
+#    select_menu=True
 )
 
-net.show_buttons(filter_=["layout", "interaction"])
+# net.toggle_physics(False)
+
+# net.show_buttons(filter_=["layout", "interaction"])
 
 with open("./input.json", encoding = 'utf-8') as f:
     data = json.load(f)
