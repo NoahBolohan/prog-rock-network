@@ -14,9 +14,7 @@ net = Network(
 #    select_menu=True
 )
 
-# net.toggle_physics(False)
-
-# net.show_buttons(filter_=["layout", "interaction"])
+net.show_buttons(filter_=["physics"])
 
 with open("./input.json", encoding = 'utf-8') as f:
     data = json.load(f)
