@@ -6,6 +6,8 @@ The website can be found [here](https://noahbolohan.github.io/prog-rock-network/
 
 Refer to [this fix](https://gist.github.com/yllowcool/1d21a38a02595b88f99547b98d92411f) for parsing HTML in node/edge titles.
 
+How to [save rendered network as static locations](https://stackoverflow.com/a/73223365).
+
 ## Maintainers
 
 [@NoahBolohan](https://github.com/NoahBolohan).

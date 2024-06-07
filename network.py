@@ -79,6 +79,6 @@ for edge in net.get_edges():
         edge["dashes"] = True
 
 net.show(
-    r"index.html",
+    r"index_dynamic.html",
     notebook = False
 )
