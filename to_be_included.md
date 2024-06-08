@@ -2,17 +2,19 @@
 
 ## Bands
 
-+ Focus
-+ Pain of Salvation
-+ ARW
++ Explorer's Club
++ Conspiracy
++ GPS
++ Mabel Greer's Toyshop
++ The Syn
++ Flash
++ Refugee
++ UKZ
 
 ## Projects from Band's members
 
-+ Yes
 + Asia
 + Camel
-+ Focus
-+ Pain of Salvation
 
 ## Albums
 

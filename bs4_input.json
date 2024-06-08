@@ -341,5 +341,105 @@
                 "new_label": "Former"
             }
         }
+    },
+    "Bruford": {
+        "title": "<a https://en.wikipedia.org/wiki/Bruford_(band)'> Bruford<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Bruford_(band)",
+        "members_page": "n",
+        "tags": {
+            "Band_members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "ARW": {
+        "title": "<a https://en.wikipedia.org/wiki/Yes_Featuring_Jon_Anderson,_Trevor_Rabin,_Rick_Wakeman'> ARW<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Yes_Featuring_Jon_Anderson,_Trevor_Rabin,_Rick_Wakeman",
+        "members_page": "n",
+        "tags": {
+            "Band_members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "GTR": {
+        "title": "<a https://en.wikipedia.org/wiki/GTR_(band)'> GTR<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/GTR_(band)",
+        "members_page": "n",
+        "tags": {
+            "Original_members": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Later_members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Circa": {
+        "title": "<a https://en.wikipedia.org/wiki/Circa_(band)'> Circa<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Circa_(band)",
+        "members_page": "n",
+        "tags": {
+            "Current members": {
+                "tag": "dt",
+                "new_label": "Current"
+            },
+            "Former members": {
+                "tag": "dt",
+                "new_label": "Former"
+            }
+        }
+    },
+    "Yoso": {
+        "title": "<a https://en.wikipedia.org/wiki/Yoso'> Yoso<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/Yoso",
+        "members_page": "n",
+        "tags": {
+            "Band_members": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "XYZ": {
+        "title": "<a https://en.wikipedia.org/wiki/XYZ_(English_band)'> XYZ<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/XYZ_(English_band)",
+        "members_page": "n",
+        "tags": {
+            "Personnel": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "The Moody Blues": {
+        "title": "<a https://en.wikipedia.org/wiki/The_Moody_Blues'> The Moody Blues<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_the_Moody_Blues_band_members",
+        "members_page": "y",
+        "tags": {
+            "Official": {
+                "tag": "span",
+                "new_label": "Current"
+            }
+        }
+    },
+    "Jethro Tull": {
+        "title": "<a https://en.wikipedia.org/wiki/Jethro_Tull_(band)'> Jethro Tull<a> is a band with a wikipedia page.",
+        "members_url": "https://en.wikipedia.org/wiki/List_of_Jethro_Tull_members",
+        "members_page": "y",
+        "tags": {
+            "Current": {
+                "tag": "span",
+                "new_label": "Current"
+            },
+            "Former": {
+                "tag": "span",
+                "new_label": "Former"
+            }
+        }
     }
 }

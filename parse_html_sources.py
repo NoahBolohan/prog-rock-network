@@ -2,6 +2,7 @@ import requests
 import json
 import re
 import dateutil.parser
+import os
 
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -101,10 +102,10 @@ def parse_main_page(soup, info):
     # Iterate over member type
     for tag, tag_info in info["tags"].items():
 
-        if tag_info["tag"] == 'b':
-            from_members = soup.findAll(tag_info["tag"],string=tag)[0]
-        elif tag_info["tag"] == "span":
+        if tag_info["tag"] == "span":
             from_members = soup.select(f"{tag_info["tag"]}#{tag}")[0]
+        else:
+            from_members = soup.findAll(tag_info["tag"],string=tag)[0]
 
         next_ul = from_members.find_next("ul")
 
@@ -150,7 +151,6 @@ def parse_main_page(soup, info):
     return members_dict
 
 def parse_html(
-        from_file = False,
         member_pages = True,
         non_member_pages = True,
         bs4_input_fp = "./bs4_input.json",
@@ -170,6 +170,11 @@ def parse_html(
                 "title" : info["title"],
                 "members" : {}
             }
+
+        if os.path.isfile(rf"{local_html_dir}\{band}.html"):
+            from_file = True
+        else:
+            from_file = False
         
         if from_file:
             with open(rf"{local_html_dir}\{band}.html", encoding='utf-8') as fp:
